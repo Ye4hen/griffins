@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=https://ye4hen.github.io/griffins/sitemap.xml">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://ye4hen.github.io/griffins/sitemap.xml";
+		</script>
+
+		<p>You are being redirected to <a href="https://ye4hen.github.io/griffins/sitemap.xml">https://ye4hen.github.io/griffins/sitemap.xml</a></p>
+	</body>
+</html>

@@ -1,0 +1,4167 @@
+# Translation of Plugins - Yoast SEO - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-18 16:22:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: src/integrations/support-integration.php:107 js/dist/support.js:1
+msgid "Support"
+msgstr "Підтримка"
+
+#: src/integrations/admin/crawl-settings-integration.php:157
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:161
+msgid "Prevent Google AdsBot from crawling"
+msgstr "Запобігти скануванню Google AdsBot"
+
+#: src/commands/index-command.php:174
+msgid "Your WordPress environment is running on a non-production site. Indexables can only be created on production environments. Please check your `WP_ENVIRONMENT_TYPE` settings."
+msgstr "Ваше середовище WordPress працює на невиробничому сайті. Індексовані файли можна створювати лише у виробничих середовищах. Будь ласка, перевірте налаштування `WP_ENVIRONMENT_TYPE`."
+
+#. translators: %s expands to the inclusive language score
+#: inc/class-wpseo-rank.php:234 inc/class-wpseo-rank.php:239
+#: inc/class-wpseo-rank.php:244
+msgid "Inclusive language: %s"
+msgstr "Інклюзивна мова: %s"
+
+#: src/integrations/admin/background-indexing-integration.php:242
+msgid "Every fifteen minutes"
+msgstr "Що п'ятнадцять хвилин"
+
+#. translators: %1$s expands to Yoast SEO, %2$s to Wincher
+#: admin/class-wincher-dashboard-widget.php:54
+msgid "%1$s / %2$s: Top Keyphrases"
+msgstr "%1$s / %2$s: Найпопулярніші ключові фрази"
+
+#. translators: %s: expands to the post type
+#: src/exceptions/indexable/post-type-not-built-exception.php:20
+msgid "The post type %s could not be indexed because it does not meet indexing requirements."
+msgstr "Тип запису %s неможливо проіндексувати, оскільки він не відповідає вимогам індексування."
+
+#: src/integrations/academy-integration.php:111 js/dist/academy.js:3
+msgid "Academy"
+msgstr "Академія"
+
+#. translators: %1$s is the plugin name, %2$s and %3$s are a link.
+#: inc/class-addon-manager.php:406
+msgid "%1$s can't be updated because your product subscription is expired. %2$sRenew your product subscription%3$s to get updates again and use all the features of %1$s."
+msgstr "%1$s неможливо оновити. оскільки термін дії вашої підписки закінчився. %2$sОновіть вашу підписку%3$s, щоб знову отримувати оновлення та користуватися всіма функціями %1$s."
+
+#. translators: %1$s: Yoast SEO
+#: src/initializers/crawl-cleanup-permalinks.php:142
+msgid "%1$s: redirect utm variables to #"
+msgstr "%1$s: переспрямувати змінні utm на #"
+
+#. translators: %1$s: Yoast SEO
+#: src/helpers/crawl-cleanup-helper.php:272
+msgid "%1$s: unregistered URL parameter removed. See %2$s"
+msgstr "%1$s: незареєстрований параметр URL видалено. Див. %2$s"
+
+#. translators: 1: Link start tag to the Permalinks settings page, 2: Link
+#. closing tag.
+#: src/integrations/admin/crawl-settings-integration.php:291
+msgid "This feature is disabled when your site is not using %1$spretty permalinks%2$s."
+msgstr "Ця функція вимкнена, якщо ваш сайт не використовує %1$sгарні постійні посилання%2$s."
+
+#: src/integrations/admin/crawl-settings-integration.php:297
+msgid "This feature is disabled when your site is not using pretty permalinks."
+msgstr "Ця функція вимкнена, якщо ваш сайт не використовує гарні постійні посилання."
+
+#: admin/views/licenses.php:31
+msgid "Maximize your visibility for local searches"
+msgstr "Збільшіть свою видимість для локальних шукачів"
+
+#: admin/views/licenses.php:35
+msgid "Attract more local customers to your website and physical store"
+msgstr "Приваблюйте більше локальних клієнтів на свій сайт та в реальний магазин"
+
+#: admin/views/licenses.php:36
+msgid "Automatically get technical SEO best practices for local businesses"
+msgstr "Автоматично отримуйте найкращі технічні SEO-практики для місцевого бізнесу"
+
+#: admin/views/licenses.php:37
+msgid "Easily add maps, address finders, and opening hours to your content"
+msgstr "Легко додайте до свого вмісту карти, адресу та години роботи"
+
+#: admin/views/licenses.php:38
+msgid "Optimize your business for multiple locations"
+msgstr "Оптимізуйте свій бізнес для кількох локацій"
+
+#: src/presenters/admin/indexing-notification-presenter.php:93
+msgid "It looks like you've enabled media pages. We recommend that you help us to re-analyze your site by running the SEO data optimization. "
+msgstr "Схоже, ви відключили сторінки медіа. Ми радимо вам допомогти нами заново проаналізувати ваш сайт, запустивши оптимізацію даних SEO. "
+
+#. translators: CTA to finish the first time configuration. %s: Either
+#. first-time SEO configuration or SEO configuration.
+#: admin/class-admin.php:237
+msgid "Finish your %s"
+msgstr "Завершіть %s"
+
+#: admin/formatter/class-metabox-formatter.php:190 inc/class-wpseo-rank.php:156
+#: inc/class-wpseo-rank.php:240 js/dist/block-editor.js:1
+#: js/dist/editor-modules.js:1 js/dist/externals-components.js:175
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Potentially non-inclusive"
+msgstr "Потенційно неінклюзивний"
+
+#. translators: %1$s and %2$s expand to a span wrap to avoid linebreaks. %3$s
+#. expands to "Yoast SEO Premium".
+#: src/presenters/admin/sidebar-presenter.php:48 js/dist/elementor.js:101
+#: js/dist/introductions.js:13 js/dist/new-settings.js:13
+#: js/dist/post-edit.js:13 js/dist/support.js:31
+msgid "%1$sGet%2$s %3$s"
+msgstr "%1$sОтримайте%2$s %3$s"
+
+#: admin/views/licenses.php:45
+msgid "Drive more traffic to your videos"
+msgstr "Залучайте більше трафіку на свої відео"
+
+#: admin/views/licenses.php:49
+msgid "Know that Google discovers your videos"
+msgstr "Знайте, що Google знаходить ваші відео"
+
+#: admin/views/licenses.php:50
+msgid "Load pages faster that include videos"
+msgstr "Швидше завантажуйте сторінки з відео"
+
+#: admin/views/licenses.php:51
+msgid "Make your videos responsive for all screen sizes"
+msgstr "Зробіть свої відео адаптивними для всіх розмірів екранів"
+
+#: admin/views/licenses.php:52
+msgid "Get XML video sitemaps"
+msgstr "Отримайте XML-карти відеосайтів"
+
+#: admin/views/licenses.php:59 admin/views/licenses.php:110
+msgid "Rank higher in Google's news carousel"
+msgstr "Підніміться вище в новинній каруселі Google"
+
+#: admin/views/licenses.php:64
+msgid "Ping Google on the publication of a new post"
+msgstr "Перевірте зв'язок з Google на публікації нового запису"
+
+#: admin/views/licenses.php:65
+msgid "Add all necessary schema.org markup"
+msgstr "Додайте всю необхідну розмітку schema.org"
+
+#: admin/views/licenses.php:66
+msgid "Get XML news sitemaps"
+msgstr "Отримайте XML- карти сайтів новин"
+
+#: admin/views/licenses.php:77 admin/views/licenses.php:111
+msgid "Drive more traffic to your online store"
+msgstr "Залучайте більше трафіку на свій інтернет-магазин"
+
+#: admin/views/licenses.php:82
+msgid "Write product pages that rank with the enhanced SEO analysis"
+msgstr "Напишіть сторінки товарів, які ранжуються за допомогою розширеного SEO-аналізу"
+
+#: admin/views/licenses.php:83
+msgid "Increase clicks of Google search with rich results"
+msgstr "Збільште кількість натискань у пошуку Google завдяки розширеним результатам"
+
+#: admin/views/licenses.php:84
+msgid "Add global identifiers for variable products"
+msgstr "Додайте глобальні ідентифікатори для змінних товарів"
+
+#. translators: used in phrases such as "More information about all the Yoast
+#. plugins"
+#. translators: used in phrases such as "Buy all the Yoast plugins"
+#: admin/views/licenses.php:102 admin/views/licenses.php:115
+msgid "all the Yoast plugins"
+msgstr "усі плагіни Yoast"
+
+#: admin/views/licenses.php:103
+msgid "Cover all your SEO bases"
+msgstr "Охопіть всі ваші SEO-бази"
+
+#: admin/views/licenses.php:107
+msgid "Get all 5 Yoast plugins for WordPress with a big discount"
+msgstr "Отримайте всі 5 плагінів Yoast для WordPress з великою знижкою"
+
+#: admin/views/licenses.php:108
+msgid "Reach new customers that live near your business"
+msgstr "Залучайте нових клієнтів, які живуть поруч з вашим бізнесом"
+
+#: admin/views/licenses.php:109
+msgid "Drive more traffic with your videos"
+msgstr "Залучайте більше трафіку за допомогою відео"
+
+#. translators: 1: expands to a opening span tag, 2: expands to a closing span
+#. tag, 3: expands to Yoast SEO Premium
+#: admin/views/licenses.php:140
+msgid "%1$sDrive more traffic to your site%2$s with %3$s"
+msgstr "%1$sЗалучайте більше трафіку на свій сайт%2$s за допомогою %3$s"
+
+#: admin/views/licenses.php:158
+msgid "Reach bigger audiences"
+msgstr "Охопіть більшу аудиторію"
+
+#: admin/views/licenses.php:159
+msgid "Optimize a single post for synonyms and related keyphrases and get extra checks with the Premium SEO analysis"
+msgstr "Оптимізуйте окремий запис за синонімами та пов'язаними ключовими фразами та отримайте додаткові перевірки за допомогою Преміум SEO-аналізу"
+
+#: admin/views/licenses.php:162
+msgid "Save time on doing SEO"
+msgstr "Заощаджуйте час на SEO"
+
+#: admin/views/licenses.php:163
+msgid "The Yoast SEO workouts guide you through important routine SEO tasks"
+msgstr "Тренування Yoast SEO допоможуть вам виконати важливі рутинні SEO-завдання"
+
+#: admin/views/licenses.php:166
+msgid "Improve your internal linking structure"
+msgstr "Покращте структуру внутрішніх посилань"
+
+#: admin/views/licenses.php:167
+msgid "Get tools that tell you where and how to improve internal linking"
+msgstr "Отримайте інструменти, які підкажуть вам, коли та як покращити внутрішні посилання"
+
+#: admin/views/licenses.php:170
+msgid "Reduce your site's carbon footprint"
+msgstr "Зменшуйте вуглецевий слід свого сайту"
+
+#: admin/views/licenses.php:171
+msgid "Save energy by reducing the crawlability of your site without hurting your rankings!"
+msgstr "Заощаджуйте енергію, зменшуючи кількість переглядів вашого сайту без шкоди для вашого рейтингу!"
+
+#: admin/views/licenses.php:174
+msgid "Prevents 404s"
+msgstr "Запобігає помилкам 404"
+
+#: admin/views/licenses.php:175
+msgid "Easily create and manage redirects when you move or delete content"
+msgstr "Легко створюйте та керуйте перенаправленнями під час переміщення або видалення вмісту"
+
+#: admin/views/licenses.php:178
+msgid "Stand out on social media"
+msgstr "Виділяйтеся в соціальних мережах"
+
+#: admin/views/licenses.php:179
+msgid "Check what your Facebook or Twitter post will look like before posting them"
+msgstr "Перевірте, який вигляд матиме ваш допис у Facebook чи Twitter, перш ніж ви його опублікуєте"
+
+#: admin/views/licenses.php:254
+msgid "With 30-day money-back guarantee. No questions asked."
+msgstr "З гарантією повернення коштів протягом 30 днів. Без жодних питань."
+
+#: admin/views/licenses.php:264
+msgid "Outrank your competitors even further"
+msgstr "Ще більше випереджайте своїх конкурентів"
+
+#. translators: 1: expands to Outrank your competitors even further, 2: expands
+#. to Yoast SEO
+#: admin/views/licenses.php:269
+msgid "%1$s with %2$s extensions"
+msgstr "%1$s за допомогою розширень %2$s"
+
+#: inc/class-wpseo-admin-bar-menu.php:226
+msgid "not set"
+msgstr "не встановлено"
+
+#: inc/class-wpseo-admin-bar-menu.php:232
+msgid "Focus keyphrase: "
+msgstr "Фокусна ключова фраза: "
+
+#: inc/class-wpseo-admin-bar-menu.php:468
+msgid "SEO Tools"
+msgstr "Інструменти SEO"
+
+#: inc/class-wpseo-admin-bar-menu.php:513
+#: inc/class-wpseo-admin-bar-menu.php:572
+msgid "Learn more SEO"
+msgstr "Дізнайтеся більше про SEO"
+
+#: inc/class-wpseo-admin-bar-menu.php:518
+msgid "Improve your blog post"
+msgstr "Покращте запис у блозі"
+
+#: inc/class-wpseo-admin-bar-menu.php:523
+msgid "Write better content"
+msgstr "Пишіть кращий вміст"
+
+#: inc/class-wpseo-admin-bar-menu.php:542
+msgid "Help"
+msgstr "Допомога"
+
+#: inc/class-wpseo-admin-bar-menu.php:557
+msgid "Yoast.com help section"
+msgstr "Розділ \"Допомога\" Yoast.com"
+
+#: inc/class-wpseo-admin-bar-menu.php:562
+msgid "Yoast Premium support"
+msgstr "Підтримка Yoast Premium"
+
+#: inc/class-wpseo-admin-bar-menu.php:567
+msgid "WordPress.org support forums"
+msgstr "Форум підтримки WordPress.org"
+
+#: src/commands/cleanup-command.php:81
+msgid "The value for 'interval' must be a positive integer."
+msgstr "Значення для \"інтервалу\" має бути додатним цілим числом."
+
+#: src/commands/cleanup-command.php:84
+msgid "The value for 'batch-size' must be a positive integer higher than equal to 1."
+msgstr "Значення для 'batch-size' має бути натуральним числом, більшим за 1."
+
+#. translators: %1$d is the number of records that are removed.
+#: src/commands/cleanup-command.php:97
+msgid "Cleaned up %1$d record."
+msgid_plural "Cleaned up %1$d records."
+msgstr[0] "Очищено %1$d запис."
+msgstr[1] "Очищено %1$d записи."
+msgstr[2] "Очищено %1$d записів."
+
+#. translators: %1$s is the site url of the site that is skipped. %2$s is Yoast
+#. SEO.
+#: src/commands/cleanup-command.php:146
+msgid "Skipping %1$s. %2$s is not active on this site."
+msgstr "Пропуск %1$s. %2$s не активовано на цьому сайті."
+
+#. translators: %1$s is the site url of the site that is cleaned up. %2$s is
+#. the name of the cleanup task that is currently running.
+#: src/commands/cleanup-command.php:159
+msgid "Cleaning up %1$s [%2$s]"
+msgstr "Очищення %1$s [%2$s]"
+
+#. translators: %1$d is the number of records that were removed. %2$s is the
+#. site url.
+#: src/commands/cleanup-command.php:183
+msgid "Cleaned up %1$d record from %2$s."
+msgid_plural "Cleaned up %1$d records from %2$s."
+msgstr[0] "Очищено %1$d запис з %2$s."
+msgstr[1] "Очищено %1$d записи з %2$s."
+msgstr[2] "Очищено %1$d записів з %2$s."
+
+#. translators: %s: expands to the post id
+#: src/exceptions/indexable/post-not-built-exception.php:20
+msgid "The post %s could not be indexed because it does not meet indexing requirements."
+msgstr "Запис %s неможливо індексувати, оскільки він не відповідає вимогам індексування."
+
+#. translators: %s: expands to the post id
+#: src/exceptions/indexable/post-not-built-exception.php:32
+msgid "The post %s could not be indexed because it's post type is excluded from indexing."
+msgstr "Запис %s неможливо індексувати, оскільки цей тип запису виключений з індексування."
+
+#. translators: %s: expands to the term id
+#: src/exceptions/indexable/term-not-built-exception.php:20
+msgid "The term %s could not be built because it's not indexable."
+msgstr "Таксономію %s неможливо побудувати, тому що вона не індексується."
+
+#: src/presenters/admin/indexing-notification-presenter.php:87
+msgid "We need to re-analyze some of your SEO data because of a change in the visibility of your post types. Please help us do that by running the SEO data optimization. "
+msgstr "Вам слід заново проаналізувати деякі дані SEO через зміну видимості типів ваших записів. Будь ласка, допоможіть нам з цим, запустивши оптимізацію даних SEO. "
+
+#: src/presenters/admin/indexing-notification-presenter.php:90
+msgid "We need to re-analyze some of your SEO data because of a change in the visibility of your taxonomies. Please help us do that by running the SEO data optimization. "
+msgstr "Нам потрібно заново проаналізувати деякі ваші дані SEO через зміну видимості ваших таксономій. Будь ласка, допоможіть нам з цим, запустивши оптимізацію даних SEO. "
+
+#: admin/views/class-yoast-feature-toggles.php:210 js/dist/new-settings.js:288
+msgid "Learn more"
+msgstr "Дізнатись більше"
+
+#: src/integrations/admin/crawl-settings-integration.php:151
+msgid "Redirect pretty URLs for search pages to raw format"
+msgstr "Переспрямування красивих URL сторінок пошуку в необроблений формат"
+
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Yoast SEO page of the Permalink Cleanup features, %2$s expands to a closing
+#. anchor tag.
+#: src/integrations/admin/crawl-settings-integration.php:209
+msgid "These are expert features, so make sure you know what you're doing before removing the parameters. %1$sRead more about how your site can be affected%2$s."
+msgstr "Це експертні функції, тому перед видаленням параметрів переконайтеся, що ви робите. %1$sДізнайтесь більше про те, як це може вплинути на ваш сайт%2$s."
+
+#: src/presenters/admin/sidebar-presenter.php:69 js/dist/elementor.js:101
+#: js/dist/introductions.js:13 js/dist/new-settings.js:13
+#: js/dist/post-edit.js:13 js/dist/support.js:31
+msgid "Read reviews from real users"
+msgstr "Читайте відгуки реальних користувачів"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the name of the
+#. class that could not be found.
+#: src/loader.php:258
+msgid "%1$s attempted to load the class %2$s but it could not be found."
+msgstr "%1$s намагався завантажити клас %2$s, але не знайшов його."
+
+#: src/integrations/admin/crawl-settings-integration.php:194
+#: js/dist/new-settings.js:161
+msgid "Remove unused resources"
+msgstr "Видалити невикористані ресурси"
+
+#: src/integrations/admin/crawl-settings-integration.php:156
+msgid "Prevent search engines from crawling /wp-json/"
+msgstr "Запобігти скануванню пошуковими системами /wp-json/"
+
+#: src/integrations/admin/crawl-settings-integration.php:150
+msgid "Prevent search engines from crawling site search URLs"
+msgstr "Заборонити пошуковим системам сканувати URL-адреси пошуку на сайті"
+
+#: admin/views/class-yoast-feature-toggles.php:94
+msgid "The inclusive language analysis offers suggestions to write more inclusive copy."
+msgstr "Інклюзивний мовний аналіз робить пропозиції щодо написання більш інклюзивної копії."
+
+#: admin/views/class-yoast-feature-toggles.php:91 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Inclusive language analysis"
+msgstr "Аналіз інклюзивної мови"
+
+#: admin/metabox/class-metabox-section-inclusive-language.php:28
+#: js/dist/externals-components.js:175
+msgid "Inclusive language"
+msgstr "Інклюзивна мова"
+
+#: admin/views/class-yoast-feature-toggles.php:95
+msgid "Discover why inclusive language is important for SEO."
+msgstr "Дізнайтеся, чому інклюзивна мова важлива для SEO."
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the inclusive language score.
+#: admin/formatter/class-metabox-formatter.php:173
+#: admin/formatter/class-metabox-formatter.php:180
+#: admin/formatter/class-metabox-formatter.php:187
+#: admin/formatter/class-metabox-formatter.php:194
+msgid "%1$sInclusive language%2$s: %3$s"
+msgstr "%1$sІнклюзивна мова%2$s: %3$s"
+
+#: admin/views/user-profile.php:69
+msgid "Disable inclusive language analysis"
+msgstr "Вимкнути аналіз інклюзивної мови"
+
+#: admin/views/user-profile.php:72
+msgid "Removes the inclusive language analysis section from the metabox and disables all inclusive language-related suggestions."
+msgstr "Видаляє розділ інклюзивного мовного аналізу з метабоксу та вимикає всі пропозиції, пов'язані з інклюзивною мовою."
+
+#. translators: 1: expands to a link opening tag; 2: expands to a link closing
+#. tag
+#: inc/language-utils.php:67
+msgid "A company name and logo need to be set for structured data to work properly. Since you haven’t set these yet, we are using the site name and logo as default values. %1$sLearn more about the importance of structured data.%2$s"
+msgstr "Щоб структуровані дані працювали належним чином, слід встановити логотип та назву компанії. Оскільки ви ще не встановили це, ми використовуємо назву та лого сайту як значення за замовчуванням. %1$sДізнайтеся більше про важливість структурованих даних.%2$s"
+
+#: inc/class-wpseo-admin-bar-menu.php:263
+msgid "Front-end SEO inspector"
+msgstr "Фронт-енд SEO-інспектор"
+
+#: admin/class-yoast-form.php:912
+msgid "Unlock with Premium!"
+msgstr "Розблокувати з Преміум!"
+
+#. translators: %s expands to the post type name.
+#. Translators: %s translates to the Post type in singular form
+#: admin/metabox/class-metabox.php:207 js/dist/block-editor.js:224
+#: js/dist/classic-editor.js:220 js/dist/elementor.js:238
+msgid "Timestamp this %s"
+msgstr "Позначте час %s"
+
+#. translators: %s expands to WordProof.
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:53
+msgid "Contact %s support."
+msgstr "Зв’язатися з підтримкою %s."
+
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Config/OptionsConfig.php:14
+msgid "View this content's Timestamp certificate"
+msgstr "Перегляньте сертифікат із міткою часу"
+
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/PostEditorTimestampController.php:133
+msgid "WordProof Timestamp"
+msgstr "Мітка часу WordProof"
+
+#. translators: 1: Yoast SEO Premium
+#: src/integrations/admin/deactivated-premium-integration.php:99
+msgid "Activate %1$s!"
+msgstr "Активуйте %1$s!"
+
+#. translators: 1: Yoast SEO Premium 2: Link start tag to activate premium, 3:
+#. Link closing tag.
+#: src/integrations/admin/deactivated-premium-integration.php:86
+msgid "You've installed %1$s but it's not activated yet. %2$sActivate %1$s now!%3$s"
+msgstr "Ви встановили %1$s, але його ще не активовано. %2$s Активуйте %1$s зараз!%3$s"
+
+#: src/integrations/admin/crawl-settings-integration.php:217
+msgid "Permalink cleanup settings"
+msgstr "Параметри очищення постійного посилання"
+
+#: src/integrations/admin/crawl-settings-integration.php:203
+msgid "Search cleanup settings"
+msgstr "Налаштування очищення пошуку"
+
+#: src/integrations/admin/crawl-settings-integration.php:149
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:161
+msgid "Filter searches with common spam patterns"
+msgstr "Фільтруйте пошук за типовими шаблонами спаму"
+
+#: src/integrations/admin/crawl-settings-integration.php:148
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:161
+msgid "Filter searches with emojis and other special characters"
+msgstr "Фільтруйте пошук за допомогою емодзі та інших спеціальних символів"
+
+#: src/integrations/admin/crawl-settings-integration.php:147
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:161
+msgid "Filter search terms"
+msgstr "Фільтрувати терміни пошуку"
+
+#: src/integrations/admin/crawl-settings-integration.php:143
+msgid "Unregistered URL parameters"
+msgstr "Незареєстровані параметри URL"
+
+#: src/integrations/admin/crawl-settings-integration.php:142
+msgid "Campaign tracking URL parameters"
+msgstr "Параметри URL-адреси відстеження кампанії"
+
+#: src/config/wordproof-translations.php:88
+msgid "Contact WordProof support"
+msgstr "Зверніться до служби підтримки WordProof"
+
+#: admin/views/class-yoast-feature-toggles.php:199
+msgid "Find out how IndexNow can help your site."
+msgstr "Дізнайтеся як IndexNow може допомогти вашому сайту."
+
+#: admin/views/class-yoast-feature-toggles.php:198 js/dist/new-settings.js:290
+msgid "Automatically ping search engines like Bing and Yandex whenever you publish, update or delete a post."
+msgstr "Автоматично перевіряйте запит пошукових систем, таких як Bing і Yandex, коли ви публікуєте, оновлюєте чи видаляєте допис."
+
+#: admin/views/class-yoast-feature-toggles.php:195 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:290
+msgid "IndexNow"
+msgstr "IndexNow"
+
+#: src/integrations/admin/crawl-settings-integration.php:119
+msgid "Global feed"
+msgstr "Загальний канал"
+
+#: src/integrations/admin/crawl-settings-integration.php:120
+msgid "Global comment feeds"
+msgstr "Загальні канали коментарів"
+
+#: src/integrations/admin/crawl-settings-integration.php:122
+msgid "Post authors feeds"
+msgstr "Канали авторів записів"
+
+#: src/integrations/admin/crawl-settings-integration.php:123
+msgid "Post type feeds"
+msgstr "Канали типів записів"
+
+#: src/integrations/admin/crawl-settings-integration.php:124
+msgid "Category feeds"
+msgstr "Канали категорій"
+
+#: src/integrations/admin/crawl-settings-integration.php:125
+msgid "Tag feeds"
+msgstr "Канали позначок"
+
+#: src/integrations/admin/crawl-settings-integration.php:126
+msgid "Custom taxonomy feeds"
+msgstr "Канали користувацьких таксономій"
+
+#: src/integrations/admin/crawl-settings-integration.php:127
+msgid "Search results feeds"
+msgstr "Канали пошукових результатів"
+
+#: src/integrations/admin/crawl-settings-integration.php:128
+msgid "Atom/RDF feeds"
+msgstr "Канали Atom/RDF"
+
+#: src/integrations/admin/crawl-settings-integration.php:132
+msgid "Shortlinks"
+msgstr "Короткі посилання"
+
+#: src/integrations/admin/crawl-settings-integration.php:133
+msgid "REST API links"
+msgstr "Посилання REST API"
+
+#: src/integrations/admin/crawl-settings-integration.php:134
+msgid "RSD / WLW links"
+msgstr "Посилання RSD / WLW"
+
+#: src/integrations/admin/crawl-settings-integration.php:135
+msgid "oEmbed links"
+msgstr "Посилання oEmbed"
+
+#: src/integrations/admin/crawl-settings-integration.php:136
+msgid "Generator tag"
+msgstr "Мітка генератора"
+
+#: src/integrations/admin/crawl-settings-integration.php:155
+msgid "Emoji scripts"
+msgstr "Сценарії емоджі"
+
+#: src/integrations/admin/crawl-settings-integration.php:137
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:161
+msgid "Pingback HTTP header"
+msgstr "Автоматичне сповіщення заголовка HTTP "
+
+#: src/integrations/admin/crawl-settings-integration.php:138
+msgid "Powered by HTTP header"
+msgstr "Працює на основі заголовка HTTP"
+
+#: src/integrations/admin/crawl-settings-integration.php:191
+msgid "Basic crawl settings"
+msgstr "Базові налаштування обходу"
+
+#: src/integrations/admin/crawl-settings-integration.php:193
+msgid "Feed crawl settings"
+msgstr "Налаштування обходу стрічки "
+
+#: src/helpers/first-time-configuration-notice-helper.php:68
+msgid "SEO configuration"
+msgstr "Конфігурація SEO"
+
+#. translators: 1: Link start tag to the first-time configuration, 2: Link
+#. closing tag.
+#: src/integrations/admin/first-time-configuration-notice-integration.php:119
+msgid "We noticed that you haven't fully configured Yoast SEO yet. Optimize your SEO settings even further by using our improved %1$s First-time configuration%2$s."
+msgstr "Ми помітили, що ще не повністю налаштували Yoast SEO. Оптимізуйте налаштування SEO ще більше за допомогою вдосконаленого %1$s Першого налаштування%2$s."
+
+#: admin/views/redirects.php:188
+msgid "No items found."
+msgstr "Елементів не знайдено."
+
+#. translators: %1$s opens the link to the Yoast.com article about Crawl
+#. settings, %2$s closes the link,
+#: admin/views/tabs/network/crawl-settings.php:31
+msgid "%1$sLearn more about crawl settings.%2$s"
+msgstr "%1$sДізнатися більше про налаштування обходу.%2$s"
+
+#: src/integrations/admin/crawl-settings-integration.php:121
+msgid "Post comments feeds"
+msgstr "Стрічки коментарів до записів"
+
+#: admin/pages/network.php:25 admin/views/tabs/network/crawl-settings.php:19
+msgid "Crawl settings"
+msgstr "Налаштування обходу"
+
+#: admin/views/redirects.php:37
+msgid "Regex Redirects"
+msgstr "Переадресації регулярних викликів"
+
+#: admin/views/redirects.php:50
+msgid "Plain redirects"
+msgstr "Рівні перенаправлення"
+
+#: admin/views/redirects.php:59 admin/views/redirects.php:155
+#: admin/views/redirects.php:203
+msgid "Type"
+msgstr "Тип"
+
+#: admin/views/redirects.php:66 admin/views/redirects.php:75
+msgid "301 Moved Permanently"
+msgstr "301 переміщено назавжди"
+
+#. translators: 1: opens a link. 2: closes the link.
+#: admin/views/redirects.php:91
+msgid "The redirect type is the HTTP response code sent to the browser telling the browser what type of redirect is served. %1$sLearn more about redirect types%2$s."
+msgstr "Тип перенаправлення - це код відповіді HTTP, який надсилається браузеру, який повідомляє браузеру, який тип перенаправлення подано. %1$sДокладніше про типи перенаправлення%2$s."
+
+#: admin/views/redirects.php:100 admin/views/redirects.php:165
+#: admin/views/redirects.php:212
+msgid "Old URL"
+msgstr "Старий URL"
+
+#: admin/views/redirects.php:122
+msgid "Add Redirect"
+msgstr "Додати перенаправлення"
+
+#: admin/views/redirects.php:137
+msgid "All redirect types"
+msgstr "Усі типи перенаправлення"
+
+#. translators: 1: Link start tag to the First time configuration tab in the
+#. General page, 2: Link closing tag.
+#: admin/views/tabs/tool/import-seo.php:117
+msgid "You should finish the %1$sfirst time configuration%2$s to make sure your SEO data has been optimized and you’ve set the essential Yoast SEO settings for your site."
+msgstr "Вам слід завершити %1$sперше налаштування%2$s, щоб переконатися, що дані SEO були оптимізовані й ви встановили основні налаштування Yoast SEO для свого сайту."
+
+#: src/integrations/admin/first-time-configuration-integration.php:125
+msgid "First-time configuration"
+msgstr "Перше налаштування"
+
+#: admin/views/tabs/tool/import-seo.php:112
+msgid "Step 4: Go through the first time configuration"
+msgstr "Крок 4: виконайте перше налаштування"
+
+#: src/exceptions/importing/aioseo-validation-exception.php:17
+msgid "The validation of the AIOSEO data structure has failed."
+msgstr "Не вдалося перевірити структуру даних AIOSEO."
+
+#: src/integrations/admin/import-integration.php:212
+msgid "The AIOSEO import was cancelled because some AIOSEO data is missing. Please try and take the following steps to fix this:"
+msgstr "Імпортування AIOSEO було скасовано, оскільки відсутні деякі дані AIOSEO. Будь ласка, виконайте наступні кроки, щоб вирішити проблему:"
+
+#: src/integrations/admin/import-integration.php:215
+msgid "If you have never saved any AIOSEO 'Search Appearance' settings, please do that first and run the import again."
+msgstr "Якщо ви ніколи не зберігали жодних налаштувань «Вигляду пошуку» AIOSEO, спершу зробіть це та запустіть імпорт ще раз."
+
+#: src/integrations/admin/import-integration.php:218
+msgid "If you already have saved AIOSEO 'Search Appearance' settings and the issue persists, please contact our support team so we can take a closer look."
+msgstr "Якщо ви вже зберегли налаштування \"Вигляду пошуку\"AIOSEO\", а проблема не зникає, будь ласка, зверніться до нашої команди підтримки, щоб ми могли розглянути її докладніше."
+
+#: src/services/health-check/links-table-check.php:47
+msgid "Links table"
+msgstr "Таблиця посилань"
+
+#: src/services/health-check/page-comments-check.php:47
+msgid "Page comments"
+msgstr "Коментарі сторінки"
+
+#: src/services/health-check/postname-permalink-check.php:47
+msgid "Postname permalink"
+msgstr "Постійне посилання назви запису"
+
+#. translators: %s expands to WordProof.
+#: src/config/wordproof-translations.php:21
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:11
+msgid "You are out of timestamps. Please upgrade your account by opening the %s settings."
+msgstr "Ви вичерпали позначки часу. Оновіть обліковий запис, відкривши налаштування %s."
+
+#: admin/metabox/class-metabox.php:208
+msgid "Use WordProof to timestamp this page to comply with legal regulations and join the fight for a more transparant and accountable internet."
+msgstr "Використовуйте WordProof, щоб позначити час на цій сторінці, щоб відповідати правовим нормам і приєднатися до боротьби за більш прозорий і підзвітний Інтернет."
+
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Controllers/PostEditorTimestampController.php:142
+msgid "Timestamp this post"
+msgstr "Позначте час цієї публікації"
+
+#: src/integrations/third-party/wordproof-integration-toggle.php:135
+msgid "The WordProof Timestamp plugin needs to be disabled before you can activate this integration."
+msgstr "Плагін WordProof Timestamp потрібно вимкнути, перш ніж ви може активувати цю інтеграцію."
+
+#. translators: %s expands to WordProof
+#: src/integrations/third-party/wordproof-integration-toggle.php:81
+msgid "%1$s can be used to timestamp your privacy page."
+msgstr "%1$s можна використовувати для позначення часу вашої сторінки конфіденційності."
+
+#: src/config/wordproof-translations.php:79
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:47
+#: vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-block-editor.js:1
+#: vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-classic-editor.js:1
+msgid "Open settings"
+msgstr "Відкрити налаштування"
+
+#: src/config/wordproof-translations.php:70
+#: vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-block-editor.js:1
+#: vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-classic-editor.js:1
+msgid "Open authentication"
+msgstr "Відкрита автентифікація"
+
+#. translators: %s expands to WordProof.
+#: src/config/wordproof-translations.php:61
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:39
+msgid "The timestamp is not created because you need to authenticate with %s first."
+msgstr "Позначку часу не створено, тому що спочатку потрібно пройти автентифікацію за допомогою %s."
+
+#. translators: %s expands to WordProof.
+#: src/config/wordproof-translations.php:51
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:34
+msgid "The timestamp is not retrieved by your site. Please try again or contact %1$s support."
+msgstr "Ваш сайт не отримує позначку часу. Повторіть спробу або зверніться до служби підтримки %1$s."
+
+#. translators: %s expands to WordProof.
+#: src/config/wordproof-translations.php:41
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:19
+msgid "%1$s failed to timestamp this page. Please check if you're correctly authenticated with %1$s and try to save this page again."
+msgstr "%1$s не вдалося поставити позначку часу на цій сторінці. Перевірте, чи правильно ви пройшли автентифікацію в %1$s, і спробуйте зберегти цю сторінку ще раз."
+
+#. translators: %s expands to WordProof.
+#: src/config/wordproof-translations.php:31
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:27
+msgid "%s has successfully timestamped this page."
+msgstr "%s успішно поставив позначку часу на цю сторінку."
+
+#. translators: %s expands to Wincher
+#. translators: %s expands to WordProof
+#: src/integrations/third-party/wincher.php:121
+#: src/integrations/third-party/wordproof-integration-toggle.php:129
+#: src/integrations/third-party/wordproof-integration-toggle.php:151
+msgid "Currently, the %s integration is not available for multisites."
+msgstr "Наразі інтеграція %s недоступна для кількох сайтів."
+
+#: src/integrations/admin/import-integration.php:95
+msgid "The cleanup can take a long time depending on your site's size."
+msgstr "Очищення може тривати довго залежно від розміру вашого сайту."
+
+#: src/integrations/admin/import-integration.php:96
+msgid "Note: "
+msgstr "Примітка:"
+
+#: src/integrations/admin/import-integration.php:97
+msgid "After you've imported data from another SEO plugin, please make sure to clean up all the original data from that plugin. (step 5)"
+msgstr "Після того, як ви імпортували дані з іншого плагіна SEO, обов’язково очистіть усі вихідні дані з цього плагіна. (крок 5)"
+
+#: src/integrations/admin/import-integration.php:105
+msgid "Clean up"
+msgstr "Очистити"
+
+#: src/integrations/admin/import-integration.php:106
+msgid "Please select an SEO plugin below to see what data can be imported."
+msgstr "Будь ласка, виберіть плагін SEO нижче, щоб побачити, які дані можна імпортувати."
+
+#: src/integrations/admin/import-integration.php:107
+msgid "Once you're certain that your site is working properly with the imported data from another SEO plugin, you can clean up all the original data from that plugin."
+msgstr "Переконавшись, що ваш сайт працює належним чином з імпортованими даними з іншого плагіна SEO, ви можете очистити всі вихідні дані з цього плагіна."
+
+#. translators: %s: expands to the name of the plugin that is selected to be
+#. imported
+#: src/integrations/admin/import-integration.php:109
+msgid "The import from %s includes:"
+msgstr "Імпортування з %s містить:"
+
+#: src/integrations/admin/import-integration.php:113
+#: src/integrations/admin/import-integration.php:123
+msgid "Post metadata (SEO titles, descriptions, etc.)"
+msgstr "Метадані запису (заголовки SEO, описи тощо)"
+
+#: src/integrations/admin/import-integration.php:114
+#: src/integrations/admin/import-integration.php:124
+msgid "Note: This metadata will only be imported if there is no existing Yoast SEO metadata yet."
+msgstr "Примітка: ці метадані буде імпортовано, лише якщо метаданих Yoast SEO ще немає."
+
+#: src/integrations/admin/import-integration.php:118
+msgid "Note: These settings will overwrite the default settings of Yoast SEO."
+msgstr "Примітка: ці налаштування замінять налаштування Yoast SEO за замовчуванням."
+
+#: src/integrations/admin/import-integration.php:234
+msgid "Cleanup failed with the following error:"
+msgstr "Не вдалося очистити через таку помилку:"
+
+#: src/integrations/admin/import-integration.php:98
+msgid "Select SEO plugin"
+msgstr "Обрати плагін SEO"
+
+#: src/integrations/admin/import-integration.php:99
+msgid "No data found from other SEO plugins."
+msgstr "Даних з інших плагінів SEO не знайдено."
+
+#: src/integrations/admin/import-integration.php:236
+msgid "Import failed with the following error:"
+msgstr "Не вдалося імпортувати через таку помилку:"
+
+#: src/services/health-check/default-tagline-check.php:47
+msgid "Default tagline"
+msgstr "Ключова фраза за замовчуванням"
+
+#: src/integrations/admin/import-integration.php:94
+msgid "The import can take a long time depending on your site's size."
+msgstr "Імпортування може тривати довго, залежно від розміру вашого сайту."
+
+#: src/integrations/admin/installation-success-integration.php:104
+msgid "Installation Successful"
+msgstr "Встановлення успішне"
+
+#: src/config/schema-types.php:131
+msgid "Blog Post"
+msgstr "Запис у блозі"
+
+#. translators: %s: 'Wincher'
+#: src/integrations/third-party/wincher.php:72
+msgid "The %s integration offers the option to track specific keyphrases and gain insights in their positions."
+msgstr "Інтеграція %s пропонує можливість відстежувати певні ключові фрази та отримувати інформацію про їхні позиції."
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#. translators: 1: Yoast WooCommerce SEO
+#: src/integrations/admin/workouts-integration.php:309
+#: js/dist/integrations-page.js:13
+msgid "Activate %s"
+msgstr "Активувати %s"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:303
+msgid "Update %s"
+msgstr "Оновити %s"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:296
+msgid "Renew %s"
+msgstr "Поновити %s"
+
+#: src/integrations/admin/workouts-integration.php:238
+msgid "Get help activating your subscription"
+msgstr "Отримати допомогу в активації вашої підписки"
+
+#. translators: 1: expands to 'Yoast SEO Premium', 2: Link start tag to the
+#. page to update Premium, 3: Link closing tag.
+#: src/integrations/admin/workouts-integration.php:232
+msgid "It looks like you’re running an outdated and unactivated version of %1$s, please activate your subscription in %2$sMyYoast%3$s and update to the latest version (at least 17.7) to gain access to our updated workouts section."
+msgstr "Схоже, ви запускаєте неоновлену та неактивовану версію %1$s, будь ласка, активуйте підписку в %2$sMyYoast%3$s та оновіться до останньої версії (принаймні до 17.7), щоб отримати доступ до оновленого розділу тренувань."
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:228
+msgid "Activate your subscription of %s"
+msgstr "Активуйте підписку %s"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:216
+msgid "Update to the latest version of %s"
+msgstr "Оновіть до останньої версії %s"
+
+#: src/integrations/admin/workouts-integration.php:209
+msgid "Renew your subscription"
+msgstr "Поновити підписку"
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:202
+msgid "Accessing the latest workouts requires an updated version of %s (at least 17.7), but it looks like your subscription has expired. Please renew your subscription to update and gain access to all the latest features."
+msgstr "Отримання доступу до останніх тренувать вимагає оновленої версії %s (принаймні 17.7), але, схоже, ваша підписка закінчилася. Будь ласка, поновіть підписку, щоб оновити та отримати доступ до всіх найновіших функцій."
+
+#. translators: 1: expands to 'Yoast SEO Premium', 2: Link start tag to the
+#. page to update Premium, 3: Link closing tag.
+#: src/integrations/admin/workouts-integration.php:219
+msgid "It looks like you're running an outdated version of %1$s, please %2$supdate to the latest version (at least 17.7)%3$s to gain access to our updated workouts section."
+msgstr "Схоже, ви використовуєте застарілу версію %1$s, будь ласка, %2$sоновіть до останньої версії (принаймні до 17.7)%3$s, щоб отримати доступ до розділу з оновленими тренуваннями."
+
+#. translators: %s: expands to 'Yoast SEO Premium'.
+#: src/integrations/admin/workouts-integration.php:199
+msgid "Renew your subscription of %s"
+msgstr "Поновіть підписку %s"
+
+#. translators: 1: Link start tag to the first-time configuration, 2: Yoast
+#. SEO, 3: Link closing tag.
+#: src/integrations/admin/first-time-configuration-notice-integration.php:110
+msgid "Get started quickly with the %1$s%2$s First-time configuration%3$s and configure Yoast SEO with the optimal SEO settings for your site!"
+msgstr "Швидко розпочніть роботу з %1$s%2$s Першим налаштуванням%3$s та налаштуйте Yoast SEO з оптимальними для вашого сайту параметрами SEO!"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Replaced with the post content"
+msgstr "Замінено вмістом запису"
+
+#: inc/class-wpseo-replace-vars.php:1496
+msgid "Replaced with the permalink"
+msgstr "Замінено постійним посиланням"
+
+#: inc/class-wpseo-replace-vars.php:1497
+msgid "Post Content"
+msgstr "Вміст запису"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Current or first category title"
+msgstr "Поточний чи перший заголовок категорії"
+
+#: inc/class-wpseo-replace-vars.php:1498
+msgid "Category Title"
+msgstr "Заголовок категорії"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Replaced with the year the post was published"
+msgstr "Замінено на рік, коли був опублікований запис"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Replaced with the month the post was published"
+msgstr "Замінено місяцем, в якому було опубліковано запис"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Replaced with the last name of the author"
+msgstr "Замінено прізвищем автора"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Replaced with the first name of the author"
+msgstr "Замінено іменем автора"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Replaced with the day the post was published"
+msgstr "Замінено днем, в який було опубліковано запис"
+
+#: inc/class-wpseo-replace-vars.php:1491
+msgid "Post year"
+msgstr "Рік запису"
+
+#: inc/class-wpseo-replace-vars.php:1492
+msgid "Post month"
+msgstr "Місяць запису"
+
+#: inc/class-wpseo-replace-vars.php:1493
+msgid "Post day"
+msgstr "День запису"
+
+#: inc/class-wpseo-replace-vars.php:1489
+msgid "Current month"
+msgstr "Поточний місяць"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Current day"
+msgstr "Сьогоднішній день"
+
+#: inc/class-wpseo-replace-vars.php:1487
+msgid "Current date"
+msgstr "Сьогоднішня дата"
+
+#: inc/class-wpseo-replace-vars.php:1495
+msgid "Author last name"
+msgstr "Прізвище автора"
+
+#: inc/class-wpseo-replace-vars.php:1494
+msgid "Author first name"
+msgstr "Ім'я автора"
+
+#. translators: %1$s expands to an opening strong tag, %2$s expands to the
+#. dependency name, %3$s expands to a closing strong tag, %4$s expands to an
+#. opening anchor tag, %5$s expands to a closing anchor tag.
+#: admin/class-suggested-plugins.php:110
+msgid "It looks like you aren't using our %1$s%2$s addon%3$s. %4$sUpgrade today%5$s to unlock more tools and SEO features to make your products stand out in search results."
+msgstr "Схоже, ви не використовуєте наш %1$s%2$s додаток%3$s. %4$sОновіть сьогодні%5$s, щоб отримати доступ до інструментів та SEO-функцій, так ваші товари виділятимуться в результатах пошуку."
+
+#. translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-error-presenter.php:102
+msgid "Below are the technical details for the error. See %1$sthis page%2$s for a more detailed explanation."
+msgstr "Нижче наведені технічні деталі помилки. Для більш детального пояснення див. %1$sцю сторінку%2$s."
+
+#: src/integrations/admin/workouts-integration.php:93
+msgid "Workouts"
+msgstr "Тренування"
+
+#: admin/views/class-yoast-integration-toggles.php:81
+msgid "Improve the quality of your site search! Automatically helps your users find your cornerstone and most important content in your internal search results. It also removes noindexed posts & pages from your site’s search results."
+msgstr "Покращіть якість пошуку по сайту! Автоматично допомагає вашим користувачам знайти ключові моменти та найважливіший вміст у результатах внутрішнього пошуку. Також видаляє не індексовані записи та сторінки з результатів пошуку по сайту."
+
+#. translators: %s: Algolia.
+#: admin/views/class-yoast-integration-toggles.php:83
+msgid "Find out more about our %s integration."
+msgstr "Дізнайтеся більше про інтеграцію %s."
+
+#: admin/views/class-yoast-feature-toggles.php:129
+msgid "Read more about how internal linking can improve your site structure."
+msgstr "Дізнайтеся більше про те, як внутрішні посилання можуть покращити структуру вашого сайту."
+
+#: admin/views/class-yoast-feature-toggles.php:118
+msgid "Find relevant data about your content right in the Insights section in the Yoast SEO metabox. You’ll see what words you use most often and if they’re a match with your keywords! "
+msgstr "Знайдіть відповідні дані про ваш вміст у розділі Інсайти в метабоксі Yoast SEO. Ви побачите, які слова ви використовуєте найчастіше і чи збігаються вони з ключовими словами!"
+
+#: admin/views/class-yoast-feature-toggles.php:119
+msgid "Find out how Insights can help you improve your content."
+msgstr "Дізнайтеся, як Інсайти можуть допомогти покращити ваш вміст."
+
+#: admin/views/class-yoast-feature-toggles.php:125 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Link suggestions"
+msgstr "Посилання пропозицій"
+
+#: admin/views/class-yoast-feature-toggles.php:116 js/dist/block-editor.js:278
+#: js/dist/classic-editor.js:274 js/dist/elementor.js:292
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:288
+msgid "Insights"
+msgstr "Статистика"
+
+#. translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-error-presenter.php:76
+#: src/presenters/admin/indexing-failed-notification-presenter.php:77
+msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please make sure to activate your subscription in MyYoast by completing %1$sthese steps%2$s."
+msgstr "Ой, щось пішло не так, і ми не можемо завершити оптимізацію ваших даних SEO. Будь ласка, переконайтеся, що ви активували підписку в MyYoast, виконавши %1$sтакі кроки%2$s."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/deprecated/admin/views/class-view-utils.php:162
+msgid "The social appearance settings for archives require Open Graph metadata (which is currently disabled). You can enable this in the %1$s‘Social’ settings under the ‘Facebook’ tab%2$s."
+msgstr "Для налаштувань вигляду соцмереж для архівів необхідні метадані Open Graph (наразі вони вимкнені). Ви можете увімкнути їх в %1$sналаштуваннях ‘Соцмережі’ на вкладці ‘Фейсбук’%2$s."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/deprecated/admin/views/class-view-utils.php:150
+msgid "The social appearance settings for taxonomies require Open Graph metadata (which is currently disabled). You can enable this in the %1$s‘Social’ settings under the ‘Facebook’ tab%2$s."
+msgstr "Для налаштувань вигляду соцмереж для таксономії необхідні метадані Open Graph (наразі вони вимкнені). Ви можете увімкнути їх в  %1$sналаштуваннях ‘Соцмережі’ на вкладці ‘Фейсбук’%2$s."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/deprecated/admin/views/class-view-utils.php:138
+msgid "The social appearance settings for content types require Open Graph metadata (which is currently disabled). You can enable this in the %1$s‘Social’ settings under the ‘Facebook’ tab%2$s."
+msgstr "Для налаштувань вигляду соцмереж для типів записів необхідні метадані Open Graph (наразі вони вимкнені). Ви можете увімкнути їх в %1$sналаштуваннях ‘Соцмережі’ на вкладці ‘Фейсбук’%2$s."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/deprecated/admin/views/class-view-utils.php:122
+msgid "The social appearance settings for your homepage require Open Graph metadata (which is currently disabled). You can enable this in the %1$s‘Social’ settings under the ‘Facebook’ tab%2$s."
+msgstr "Для налаштувань вигляду соцмереж для домашньої сторінки необхідні метадані Open Graph (наразі вони вимкнені). Ви можете увімкнути їх в %1$sналаштуваннях ‘Соцмережі’ на вкладці ‘Фейсбук’%2$s."
+
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:254
+#: js/dist/new-settings.js:24 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:59
+#: js/dist/new-settings.js:68 js/dist/new-settings.js:98
+#: js/dist/new-settings.js:120 js/dist/new-settings.js:181
+#: js/dist/new-settings.js:197 js/dist/new-settings.js:204
+msgid "Social title"
+msgstr "Назва соцмереж"
+
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:255
+#: js/dist/new-settings.js:24 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:59
+#: js/dist/new-settings.js:68 js/dist/new-settings.js:98
+#: js/dist/new-settings.js:120 js/dist/new-settings.js:181
+#: js/dist/new-settings.js:197 js/dist/new-settings.js:204
+msgid "Social description"
+msgstr "Опис соцмереж"
+
+#. translators: %s expands to 'Yoast SEO Premium'.
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:267
+msgid "To unlock this feature please update %s to the latest version."
+msgstr "Для розблокування цієї функції, будь ласка, оновіть  %s до останньої версії."
+
+#: admin/views/redirects.php:22
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:280
+#: js/dist/elementor.js:97 js/dist/integrations-page.js:3
+#: js/dist/integrations-page.js:23 js/dist/introductions.js:9
+#: js/dist/new-settings.js:9 js/dist/post-edit.js:9 js/dist/support.js:27
+msgid "Unlock with Premium"
+msgstr "Розблокувати за допомогою Преміум"
+
+#: src/integrations/admin/addon-installation/installation-integration.php:103
+msgid "Installing and activating addons"
+msgstr "Встановлення та активація застосунків"
+
+#. translators: %1$s expands to an anchor tag to the admin premium page, %2$s
+#. expands to Yoast SEO Premium, %3$s expands to a closing anchor tag
+#: src/integrations/admin/addon-installation/installation-integration.php:126
+msgid "%1$s Continue to %2$s%3$s"
+msgstr "%1$s Продовжити з %2$s%3$s"
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:151
+msgid "Addon activated."
+msgstr "Застосунок активовано."
+
+#: src/integrations/admin/addon-installation/installation-integration.php:153
+msgid "You are not allowed to activate plugins."
+msgstr "Вам не дозволено активувати плагіни."
+
+#. Translators:%s expands to the error message.
+#: src/integrations/admin/addon-installation/installation-integration.php:157
+msgid "Addon activation failed because of an error: %s."
+msgstr "Не вдалося активувати застосунок через помилку: %s."
+
+#. Translators: %s expands to the name of the addon.
+#: src/integrations/admin/addon-installation/installation-integration.php:181
+msgid "Addon installed."
+msgstr "Застосунок встановлено."
+
+#: src/integrations/admin/addon-installation/installation-integration.php:185
+msgid "You are not allowed to install plugins."
+msgstr "Вам не дозволено встановлювати плагіни."
+
+#. Translators: %s expands to the error message.
+#: src/integrations/admin/addon-installation/installation-integration.php:189
+msgid "Addon installation failed because of an error: %s."
+msgstr "Не вдалося встановити застосунок через помилку: %s."
+
+#. translators: %1$s expands to Yoast SEO
+#: src/integrations/admin/addon-installation/dialog-integration.php:92
+msgid "No %1$s plugins have been installed. You don't seem to own any active subscriptions."
+msgstr "Жодного плагіна %1$s не встановлено. Схоже, у вас немає активних підписок."
+
+#. translators: %s expands to Yoast SEO Premium.
+#: admin/class-admin.php:249
+msgid "Required by %s"
+msgstr "Обов'язково для %s"
+
+#. Translators: %1$s resolves to Yoast SEO.
+#: src/integrations/watchers/addon-update-watcher.php:83
+msgid "Auto-updates are enabled based on this setting for %1$s."
+msgstr "Автоматичні оновлення ввімкнені на основі цього налаштування для %1$s."
+
+#. Translators: %1$s resolves to Yoast SEO.
+#: src/integrations/watchers/addon-update-watcher.php:93
+msgid "Auto-updates are disabled based on this setting for %1$s."
+msgstr "Автоматичні оновлення вимкнені на основі цього налаштування для %1$s."
+
+#: src/presenters/admin/badge-presenter.php:80
+#: src/presenters/admin/badge-presenter.php:87
+#: js/dist/externals/componentsNew.js:136 js/dist/integrations-page.js:3
+#: js/dist/integrations-page.js:23 js/dist/new-settings.js:304
+msgid "New"
+msgstr "Нове"
+
+#. translators: %s is the reason given by WordPress.
+#: src/exceptions/indexable/invalid-term-exception.php:21
+msgid "The term is considered invalid. The following reason was given by WordPress: %s"
+msgstr "Термін вважається недійсним. WordPress вказав таку причину: %s"
+
+#: src/exceptions/indexable/term-not-found-exception.php:16
+msgid "The term could not be found."
+msgstr "Таксономію не знайдено."
+
+#: src/exceptions/indexable/post-not-found-exception.php:16
+msgid "The post could not be found."
+msgstr "Допис не знайдено."
+
+#. translators: %1$s expands to an opening anchor tag, %2$s expands to an
+#. closing anchor tag.
+#: src/integrations/third-party/wpml-wpseo-notification.php:110
+msgid "We notice that you have installed WPML. To make sure your canonical URLs are set correctly, %1$sinstall and activate the Yoast SEO Multilingual add-on%2$s as well!"
+msgstr "Ми помітили, що ви встановили WPML. Щоб переконатися, що ваші канонічні URL встановлені коректно, також %1$sвстановіть та активуйте додаток Yoast SEO Multilingual %2$s!"
+
+#: admin/class-yoast-form.php:1044 js/dist/first-time-configuration.js:13
+msgid "This feature has been disabled since subsites never send tracking data."
+msgstr "Цю можливість було вимкнено, оскільки підсайти ніколи не надсилають дані про стеження."
+
+#: src/presenters/admin/indexing-notification-presenter.php:81
+msgid "Because of a change in your category base setting, some of your SEO data needs to be reprocessed."
+msgstr "У зв'язку із зміною налаштувань вашої основної категорії, деякі ваші дані SEO мають бути опрацьовано ще раз."
+
+#: admin/views/class-yoast-feature-toggles.php:189 js/dist/new-settings.js:288
+msgid "This adds an author byline and reading time estimate to the article’s snippet when shared on Slack."
+msgstr "Це додає авторський підпис і приблизний час читання до фрагмента статті, коли він публікується в Slack."
+
+#: admin/views/class-yoast-feature-toggles.php:190
+msgid "Find out how a rich snippet can improve visibility and click-through-rate."
+msgstr "Перегляньте, як багатофункціональні сніпети можуть покращити видимість та частоту переходів."
+
+#: inc/class-wpseo-admin-bar-menu.php:434
+msgid "Google Rich Results Test"
+msgstr "Тест Google Rich Results"
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "Est. reading time"
+msgstr "Прибл. час читання"
+
+#. translators: %s expands to the reading time number, in minutes
+#: src/presenters/slack/enhanced-data-presenter.php:55
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s хвилина"
+msgstr[1] "%s хвилини"
+msgstr[2] "%s хвилин"
+
+#. translators: 1: Expands to Yoast SEO
+#: src/presenters/admin/indexing-notification-presenter.php:129
+msgid "Wait for a week or so, until %1$s automatically processes most of your content in the background."
+msgstr "Зачекайте близько тижня, поки %1$s автоматично обробить більшість вашого вмісту у фоновому режимі."
+
+#: admin/views/class-yoast-feature-toggles.php:187
+msgid "Enhanced Slack sharing"
+msgstr "Покращене поширення в Slack"
+
+#: src/presenters/slack/enhanced-data-presenter.php:50
+msgid "Written by"
+msgstr "Написано"
+
+#: src/presenters/admin/indexing-notification-presenter.php:84
+msgid "Because of a change in your tag base setting, some of your SEO data needs to be reprocessed."
+msgstr "Через зміни в базовому налаштуванні позначок деякі ваші дані SEO мають бути оброблені заново. "
+
+#. translators: %s: 'Semrush'
+#: admin/views/class-yoast-integration-toggles.php:71
+msgid "The %s integration offers suggestions and insights for keywords related to the entered focus keyphrase."
+msgstr "Інтеграція %s надає пропозиції та розуміння ключових слів, схожих із введеною ключовою фразою фокусу."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/integrations.php:27
+msgid "This tab allows you to selectively disable %1$s integrations with third-party products for all sites in the network. By default all integrations are enabled, which allows site admins to choose for themselves if they want to toggle an integration on or off for their site. When you disable an integration here, site admins will not be able to use that integration at all."
+msgstr "Ця вкладка дозволяє вибірково вимкнути інтеграцію %1$s s зі сторонніми продуктами для всіх вебсайтів у мережі. За замовчуванням усі можливості ввімкнені, що дозволяє адміністраторам сайтів самостійно вибирати, чи вони хочуть ввімкнути інтеграцію для свого сайту чи вимкнути її. "
+
+#: admin/class-admin.php:260
+msgid "Activate your subscription"
+msgstr "Активуйте свою підписку"
+
+#: src/presenters/admin/indexing-error-presenter.php:64
+msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please click the button again to re-start the process. "
+msgstr "Йой, щось пішло не так, і ми не змогли завершити оптимізацію ваших даних SEO. Будь ласка, натисніть на кнопку, щоб почати спочатку."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:42
+msgid "Learn more about the benefits of optimized SEO data."
+msgstr "Дізнайтеся більше про переваги оптимізованих даних SEO."
+
+#: src/presenters/admin/indexing-notification-presenter.php:59
+#: js/dist/first-time-configuration.js:4 js/dist/indexation.js:8
+msgid "Start SEO data optimization"
+msgstr "Розпочати оптимізацію даних SEO"
+
+#: src/presenters/admin/indexing-notification-presenter.php:96
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. "
+msgstr "Ви можете пришвидшити роботу свого сайту та отримати уявлення про свою внутрішню структуру зв’язку, дозволивши нам виконати кілька оптимізацій способу зберігання даних SEO."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:40
+msgid "You can speed up your site and get insight into your internal linking structure by letting us perform a few optimizations to the way SEO data is stored. If you have a lot of content it might take a while, but trust us, it's worth it."
+msgstr "Ви можете пришвидшити роботу свого сайту та отримати уявлення про свою внутрішню структуру посилань, дозволивши нам виконати кілька оптимізацій способу зберігання даних SEO. Якщо у вас багато вмісту, це може зайняти деякий час, але повірте нам, воно того варте."
+
+#: src/integrations/watchers/indexable-homeurl-watcher.php:97
+msgid "All permalinks were successfully reset"
+msgstr "Усі постійні посилання успішно скинуто"
+
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Yoast SEO tools page, %2$s expands to a closing anchor tag.
+#: src/presenters/admin/indexing-failed-notification-presenter.php:59
+msgid "Something has gone wrong and we couldn't complete the optimization of your SEO data. Please %1$sre-start the process%2$s."
+msgstr "Щось пішло не так, і нам не вдалося завершити оптимізацію ваших даних SEO. Будь ласка, %1$sпочніть спочатку%2$s."
+
+#: src/presenters/admin/indexing-error-presenter.php:71
+#: src/presenters/admin/indexing-failed-notification-presenter.php:71
+msgid "If the problem persists, please contact support."
+msgstr "Якщо проблема не зникне, будь ласка, зверніться до служби підтримки."
+
+#: src/presenters/admin/indexing-list-item-presenter.php:37
+msgid "Optimize SEO Data"
+msgstr "Оптимізація даних SEO"
+
+#. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
+#. closing anchor tag
+#: admin/views/class-yoast-feature-toggles.php:241
+msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitemaps. In some cases, this %1$s may result in SEO errors on your site%2$s. These may be reported in Google Search Console and other tools."
+msgstr "Вимкнення XML-файлів карт сайту Yoast SEO не призведе до відключення основних карт сайту WordPress. У деяких випадках це %1$s може спричинити помилки в роботі SEO на вашому сайті%2$s. Про них можна повідомити в пошуковій консолі Google та інших інструментах."
+
+#: inc/class-addon-manager.php:848
+msgid "Need support?"
+msgstr "Потрібна допомога?"
+
+#. translators: 1: expands to <a> that refers to the help page, 2: </a> closing
+#. tag.
+#: inc/class-addon-manager.php:851
+msgid "You can probably find an answer to your question in our %1$shelp center%2$s."
+msgstr "Можливо, ви знайдете відповідь на ваше питання в нашому %1$sцентрі допомоги%2$s."
+
+#. translators: %s expands to a mailto support link.
+#: inc/class-addon-manager.php:854
+msgid "If you still need support and have an active subscription for this product, please email %s."
+msgstr "Якщо вам все ще потрібна підтримка, і у вас є активна підписка на цей продукт, будь ласка, напишіть на %s."
+
+#. translators: 1: Yoast SEO, 2: translated version of "Off"
+#: admin/views/class-yoast-feature-toggles.php:158
+msgid "The advanced section of the %1$s meta box allows a user to remove posts from the search results or change the canonical. The settings in the schema tab allows a user to change schema meta data for a post. These are things you might not want any author to do. That's why, by default, only editors and administrators can do this. Setting to \"%2$s\" allows all users to change these settings."
+msgstr "Розширений розділ мета-коду %1$s дозволяє користувачеві видаляти публікації з результатів пошуку або змінювати канонічні. Налаштування у вкладці схеми дозволяють користувачеві змінювати мета-дані схеми для запису. Це ті речі, які ви не хочете дозволяти будь-якому автору. Ось чому, за замовчуванням, лише редактори та адміністратори можуть це зробити. Встановлення в \"%2$s\" дозволяє всім користувачам змінювати ці налаштування."
+
+#: admin/views/class-yoast-feature-toggles.php:154
+msgid "Security: no advanced or schema settings for authors"
+msgstr "Безпека: немає додаткових налаштувань або налаштувань схем для авторів"
+
+#: src/config/schema-types.php:60
+msgid "Web Page"
+msgstr "Вебсторінка"
+
+#: src/config/schema-types.php:159
+msgid "Report"
+msgstr "Звіт"
+
+#: src/config/schema-types.php:88
+msgid "Medical Web Page"
+msgstr "Медична вебсторінка"
+
+#: src/config/schema-types.php:100
+msgid "Real Estate Listing"
+msgstr "Оголошення нерухомості"
+
+#: src/config/schema-types.php:135
+msgid "Social Media Posting"
+msgstr "Публікації для соціальних мереж"
+
+#: src/config/schema-types.php:147
+msgid "Satirical Article"
+msgstr "Сатирична стаття"
+
+#: src/config/schema-types.php:127
+msgid "Article"
+msgstr "Стаття"
+
+#: src/config/schema-types.php:143
+msgid "Advertiser Content Article"
+msgstr "Стаття рекламного змісту"
+
+#: src/config/schema-types.php:92
+msgid "Collection Page"
+msgstr "Сторінка колекцій"
+
+#: src/config/schema-types.php:76
+msgid "QA Page"
+msgstr "Сторінка контролю якості"
+
+#: src/config/schema-types.php:96
+msgid "Checkout Page"
+msgstr "Сторінка оформлення замовлення"
+
+#: src/config/schema-types.php:80
+msgid "Profile Page"
+msgstr "Сторінка профилю"
+
+#: src/config/schema-types.php:104
+msgid "Search Results Page"
+msgstr "Сторінка результатів пошуку"
+
+#: src/config/schema-types.php:64
+msgid "Item Page"
+msgstr "Сторінка товару"
+
+#: src/config/schema-types.php:72
+msgid "FAQ Page"
+msgstr "Сторінка частих питань"
+
+#: src/config/schema-types.php:155
+msgid "Tech Article"
+msgstr "Технічна стаття"
+
+#: src/config/schema-types.php:151
+msgid "Scholarly Article"
+msgstr "Наукова стаття"
+
+#: src/config/schema-types.php:84
+msgid "Contact Page"
+msgstr "Сторінка Контакти"
+
+#: src/config/schema-types.php:68
+msgid "About Page"
+msgstr "Сторінка «Про нас»"
+
+#: src/config/schema-types.php:139
+msgid "News Article"
+msgstr "Новинна стаття"
+
+#: admin/views/class-yoast-feature-toggles.php:165
+#: admin/views/class-yoast-feature-toggles.php:166 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:284
+msgid "Usage tracking"
+msgstr "Відстеження користування"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:170
+msgid "Allow us to track some data about your site to improve our plugin."
+msgstr "Дозволяє нам відстежувати деякі дані для вдосконалення плагіну."
+
+#: src/presenters/admin/indexing-notification-presenter.php:78
+msgid "Because of a change in your home URL setting, some of your SEO data needs to be reprocessed."
+msgstr "Через зміни у налаштуванні URL категорій деякі дані SEO мають бути оброблені заново."
+
+#: src/presenters/admin/indexing-notification-presenter.php:75
+msgid "Because of a change in your permalink structure, some of your SEO data needs to be reprocessed."
+msgstr "Через зміни у структурі постійних посилань деякі дані SEO мають бути оброблені заново."
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:45
+msgid "%1$s Internal Linking Blocks"
+msgstr "Блоки внутрішніх посилань %1$s"
+
+#. translators: 1: Link to the Yoast SEO blog, 2: Link closing tag.
+#: src/services/health-check/links-table-reports.php:73
+msgid "The text link counter helps you improve your site structure. %1$sFind out how the text link counter can enhance your SEO%2$s."
+msgstr "Рахівник текстових посилань допомагає вдосконалювати структуру сайту. %1$sДізнайтеся, яким чином рахівник текстових посилань може покращити SEO%2$s."
+
+#: src/services/health-check/links-table-reports.php:45
+msgid "The text link counter is working as expected"
+msgstr "Рахівник текстових посилань працює належним чином"
+
+#. translators: %1$s: Link to article about text links, %2$s: Anchor closing
+#. tag, %3$s: Emphasis open tag, %4$s: Emphasis close tag
+#: admin/class-yoast-columns.php:48
+msgid "The links columns show the number of articles on this site linking %3$sto%4$s this article and the number of URLs linked %3$sfrom%4$s this article. Learn more about %1$show to use these features to improve your internal linking%2$s, which greatly enhances your SEO."
+msgstr "Стовпці посилань відображають кількість статей сайту, що ведуть %3$sна%4$s цю статтю, і кількість URL, що ведуть %3$sвід%4$s цієї статті. Дізнайтеся більше про %1$sвикористання цих функції для покращення внутрішніх перехресних посилань%2$s, що значно покращує SEO."
+
+#: src/services/health-check/links-table-reports.php:58
+msgid "The text link counter feature is not working as expected"
+msgstr "Функціонал рахівника текстових посилань працює неналежним чином"
+
+#. translators: 1: Link to the Yoast help center, 2: Link closing tag.
+#: src/services/health-check/links-table-reports.php:100
+msgid "%1$sFind out how to solve this problem on our help center%2$s."
+msgstr "%1$sДізнайтеся про вирішення цієї проблеми з нашої бази знань%2$s."
+
+#. translators: %1$s: Yoast SEO
+#: admin/class-yoast-columns.php:32
+msgid "%1$s adds several columns to this page."
+msgstr "%1$s додає декілька стовпців до цієї сторінки."
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:42
+msgid "%s had problems creating the database tables needed to speed up your site."
+msgstr "%s мав проблеми зі створенням таблиць бази даних, необхідних для пришвидшення сайту."
+
+#. translators: %s: Yoast SEO.
+#: src/presenters/admin/migration-error-presenter.php:53
+msgid "Your site will continue to work normally, but won't take full advantage of %s."
+msgstr "Ваш сайт продовжить працювати штатно, але не зможе скористатися перевагами %s."
+
+#: src/presenters/admin/migration-error-presenter.php:59
+msgid "Show debug information"
+msgstr "Відобразити інформацію для налагодження"
+
+#. translators: %1$s: Link to article about content analysis, %2$s: Anchor
+#. closing
+#: admin/class-yoast-columns.php:39
+msgid "We've written an article about %1$show to use the SEO score and Readability score%2$s."
+msgstr "Ми написали статтю про %1$sвикористання рейтингу SEO та рейтинг читабельності%2$s."
+
+#: src/presenters/admin/indexing-notification-presenter.php:121
+msgid "We estimate this will take a couple of minutes."
+msgstr "Ми прогнозуємо, що це займе декілька хвилин."
+
+#: src/presenters/admin/indexing-notification-presenter.php:117
+msgid "We estimate this will take less than a minute."
+msgstr "Ми прогнозуємо, що це займе менше хвилини."
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:41
+msgid "I don't want this site to show in the search results."
+msgstr "Я не хочу, щоб цей сайт відображався у результатах пошуку."
+
+#. translators: 1: Link start tag to the WordPress Reading Settings page, 2:
+#. Link closing tag.
+#: src/presenters/admin/search-engines-discouraged-presenter.php:36
+msgid "If you want search engines to show this site in their results, you must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
+msgstr "Якщо ви хочете, щоб пошукові движки відображали цей сайт у результатах пошуку, вам слід %1$sперейти до налаштувань читання%2$s і прибрати галочку для видимості пошукових движків."
+
+#: src/presenters/admin/indexing-notification-presenter.php:124
+msgid "We estimate this could take a long time, due to the size of your site. As an alternative to waiting, you could:"
+msgstr "Ми прогнозуємо, що це може зайняти багато часу через розмір вашого сайту. Замість очікування ви можете:"
+
+#. translators: 1: Link to article about indexation command, 2: Anchor closing
+#. tag, 3: Link to WP CLI.
+#: src/presenters/admin/indexing-notification-presenter.php:136
+msgid "%1$sRun the indexation process on your server%2$s using %3$sWP CLI%2$s."
+msgstr "%1$sЗапуск процесу індексування на вашому сервері%2$s за допомогою %3$sWP CLI%2$s."
+
+#. translators: %1$s: link to help article about solving table issue. %2$s: is
+#. anchor closing.
+#: src/presenters/admin/migration-error-presenter.php:47
+msgid "Please read %1$sthis help article%2$s to find out how to resolve this problem."
+msgstr "Будь ласка, прочитайте %1$sцю довідкову статтю%2$s, щоб з'ясувати, як вирішити цю проблему."
+
+#: inc/class-wpseo-replace-vars.php:1485
+msgid "Term hierarchy"
+msgstr "Ієрархія елементів"
+
+#: admin/views/class-yoast-feature-toggles.php:177
+msgid "REST API: Head endpoint"
+msgstr "REST API: Головна точка підключення"
+
+#: inc/class-wpseo-replace-vars.php:1485
+msgid "Replaced with the term ancestors hierarchy"
+msgstr "Замінено елементом батьківської ієрархії"
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:181
+msgid "This %1$s REST API endpoint gives you all the metadata you need for a specific URL. This will make it very easy for headless WordPress sites to use %1$s for all their SEO meta output."
+msgstr "Ця точка підключення %1$s REST API надає усю необхідну мета-інформацію щодо конкретного URL. Це дозволить керованим сайтам WordPress легко використовувати %1$s для повернення мета SEO."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: src/services/health-check/default-tagline-reports.php:63
+msgid "%1$sYou can change the tagline in the customizer%2$s."
+msgstr "%1$sВи можете змінити слоган у Налаштовувачі%2$s."
+
+#: src/services/health-check/postname-permalink-reports.php:43
+msgid "You do not have your postname in the URL of your posts and pages"
+msgstr "В URL записів і сторінок відсутній postname"
+
+#: src/services/health-check/postname-permalink-reports.php:32
+msgid "You do have your postname in the URL of your posts and pages."
+msgstr "В URL записів і сторінок міститься postname."
+
+#: src/services/health-check/default-tagline-reports.php:43
+msgid "You should change the default WordPress tagline"
+msgstr "Вам слід змінити слоган WordPress за замочуванням"
+
+#: src/services/health-check/default-tagline-reports.php:32
+msgid "You are using a custom tagline or an empty one."
+msgstr "Ви використовуєте користувацький або порожній слоган."
+
+#: src/services/health-check/default-tagline-reports.php:30
+msgid "You changed the default WordPress tagline"
+msgstr "Ви змінили слоган WordPress за замовчуванням"
+
+#: src/services/health-check/default-tagline-reports.php:45
+msgid "You still have the default WordPress tagline. Even an empty one is probably better."
+msgstr "Ви й досі використовуєте слоган WordPress за замовчуванням. Навіть порожній, ймовірно, краще."
+
+#: src/services/health-check/page-comments-reports.php:32
+msgid "Comments on your posts are displayed on a single page. This is just like we'd suggest it. You're doing well!"
+msgstr "Коментарі до вашого запису відображаються однією сторінкою. Це саме те, що ми радимо. Так тримати!"
+
+#. translators: %s expands to '/%postname%/'
+#: src/services/health-check/postname-permalink-reports.php:58
+msgid "It's highly recommended to have your postname in the URL of your posts and pages. Consider setting your permalink structure to %s."
+msgstr "Рекомендовано мати postname в URL записів і сторінок. Розгляньте можливість встановлення структури permalink в %s."
+
+#: src/services/health-check/postname-permalink-reports.php:30
+msgid "Your permalink structure includes the post name"
+msgstr "Структура ваших постійних посилань містить назву запису"
+
+#: src/services/health-check/page-comments-reports.php:45
+msgid "Comments on your posts break into multiple pages. As this is not needed in 999 out of 1000 cases, we recommend you disable it. To fix this, uncheck \"Break comments into pages...\" on the Discussion Settings page."
+msgstr "Коментарі до вашого запису розбито на декілька сторінок. Оскільки в 999 випадках з 1000 це не потрібно, рекомендуємо відключити це. Щоб виправити це, приберіть галочку з налаштування \"Розбити коментарі на сторінки...\" на сторінці налаштувань обговорення."
+
+#: src/helpers/post-helper.php:113
+msgid "No title"
+msgstr "Без заголовку"
+
+#: src/services/health-check/page-comments-reports.php:43
+msgid "Comments break into multiple pages"
+msgstr "Коментарі розбиті на декілька сторінок"
+
+#: src/services/health-check/page-comments-reports.php:30
+msgid "Comments are displayed on a single page"
+msgstr "Коментарі відображаються на одній сторінці"
+
+#. translators: 1: Opening tag of the link to the discussion settings page, 2:
+#. Link closing tag.
+#: src/services/health-check/page-comments-reports.php:58
+msgid "%1$sGo to the Discussion Settings page%2$s"
+msgstr "%1$sПерейдіть на сторінку налаштувань обговорення%2$s"
+
+#. translators: 1: Start of a paragraph beginning with the Yoast icon, 2:
+#. Expands to 'Yoast SEO', 3: Paragraph closing tag.
+#: src/services/health-check/report-builder.php:201
+msgid "%1$sThis was reported by the %2$s plugin%3$s"
+msgstr "%1$sЦе було повідомлено плагіном %2$s%3$s"
+
+#. translators: 1: Link start tag to the Firefox website, 2: Link start tag to
+#. the Chrome website, 3: Link start tag to the Edge website, 4: Link closing
+#. tag.
+#: admin/metabox/class-metabox.php:153 admin/taxonomy/class-taxonomy.php:108
+msgid "The browser you are currently using is unfortunately rather dated. Since we strive to give you the best experience possible, we no longer support this browser. Instead, please use %1$sFirefox%4$s, %2$sChrome%4$s or %3$sMicrosoft Edge%4$s."
+msgstr "Браузер, яким ви користуєтесь, на жаль, застарів. Попри наше бажання надавати найкращі послуги, ми не підтримуємо більше цей браузер. Натомість, будь ласка, використовуйте %1$sFirefox%4$s, %2$sChrome%4$s або %3$sMicrosoft Edge%4$s."
+
+#: admin/metabox/class-metabox.php:190
+msgid "If you want to apply advanced <code>meta</code> robots settings for this page, please define them in the following field."
+msgstr "Якщо ви хочете застосувати розширені налаштування роботів <code>meta</code> для цієї сторінки, будь ласка, зазначте їх в цьому полі."
+
+#: src/presenters/admin/sidebar-presenter.php:88 js/dist/elementor.js:91
+#: js/dist/introductions.js:3 js/dist/new-settings.js:3 js/dist/post-edit.js:3
+#: js/dist/support.js:21
+msgid "Learn SEO"
+msgstr "Вивчайте SEO"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-import.php:39
+msgid "%s settings to import:"
+msgstr "%s налаштування для імпорту:"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-export.php:68
+msgid "Your %1$s settings:"
+msgstr "Ваші %1$s налаштування:"
+
+#. translators: %1$s expands to Yoast SEO academy, which is a clickable link.
+#. translators: %1$s expands to "Yoast SEO" academy, which is a clickable link.
+#: src/presenters/admin/sidebar-presenter.php:96 js/dist/elementor.js:91
+#: js/dist/introductions.js:3 js/dist/new-settings.js:3 js/dist/post-edit.js:3
+#: js/dist/support.js:21
+msgid "Want to learn SEO from Team Yoast? Check out our %1$s!"
+msgstr "Бажаєте вивчати SEO разом з Командою Yoast? Дивіться нашу %1$s!"
+
+#. translators: %1$s expands to Yoast SEO academy
+#. translators: %1$s expands to "Yoast SEO academy".
+#: src/presenters/admin/sidebar-presenter.php:105 js/dist/elementor.js:93
+#: js/dist/introductions.js:5 js/dist/new-settings.js:5 js/dist/post-edit.js:5
+#: js/dist/support.js:23
+msgid "Check out %1$s"
+msgstr "Дивіться %1$s"
+
+#. translators: 1: expands to Yoast SEO, 2: expands to Import settings.
+#: admin/views/tabs/tool/wpseo-import.php:23
+msgid "Import settings from another %1$s installation by pasting them here and clicking \"%2$s\"."
+msgstr "Імпортувати налаштування з іншого середовища %1$s, вставивши їх сюди й натиснувши \"%2$s\"."
+
+#: src/presenters/admin/sidebar-presenter.php:98 js/dist/elementor.js:91
+#: js/dist/introductions.js:3 js/dist/new-settings.js:3 js/dist/post-edit.js:3
+#: js/dist/support.js:21
+msgid "We have both free and premium online courses to learn everything you need to know about SEO."
+msgstr "Ми пропонуємо як безкоштовні, так і преміум онлайн курси для вивчення всього, що необхідно знати про SEO."
+
+#: admin/metabox/class-metabox.php:433 js/dist/block-editor.js:295
+#: js/dist/elementor.js:292 js/dist/new-settings.js:24
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:32
+#: js/dist/new-settings.js:59 js/dist/new-settings.js:222
+#: js/dist/structured-data-blocks.js:13
+msgid "Schema"
+msgstr "Schema"
+
+#: admin/admin-settings-changed-listener.php:81
+msgid "Settings saved."
+msgstr "Налаштування збережені."
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:112
+msgid "Please check the format of the Facebook Page URL you entered. %s"
+msgstr "Перевірте введений формат URL сторінки Facebook, %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:122
+msgid "Please check the format of the Instagram URL you entered. %s"
+msgstr "Будь ласка, перевірте введений формат URL Instagram. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:137
+msgid "Please check the format of the MySpace URL you entered. %s"
+msgstr "Будь ласка, перевірте введений формат URL MySpace. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:142
+msgid "Please check the format of the Pinterest URL you entered. %s"
+msgstr "Будь ласка, перевірте введений формат URL Pinterest. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:157
+msgid "Please check the format of the Wikipedia URL you entered. %s"
+msgstr "Будь ласка, перевірте введений формат URL Wikipedia. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:127
+msgid "Please check the format of the LinkedIn URL you entered. %s"
+msgstr "Будь ласка, перевірте введений формат Linkedin URL. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:167
+msgid "Please check the format of the YouTube URL you entered. %s"
+msgstr "Будь ласка, перевірте введений формат Youtube URL. %s"
+
+#. translators: %s: form value as submitted.
+#: admin/class-yoast-input-validation.php:319
+msgid "The submitted value was: %s"
+msgstr "Надіслане значення було: %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:162
+msgid "Yandex confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Коди підтвердження Яндекс можуть містити лише літери від А до F, цифри, дефіси та підкреслення. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:152
+msgid "Twitter usernames can only contain letters, numbers, and underscores. %s"
+msgstr "Імена користувачів у Twitter можуть містити лише літери, цифри та підкреслення. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:147
+msgid "Pinterest confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Коди підтвердження Pinterest можуть містити лише літери від A до F, цифри, дефіси та підкреслення. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:132
+msgid "Bing confirmation codes can only contain letters from A to F, numbers, hyphens, and underscores. %s"
+msgstr "Коди підтвердження Bing можуть містити лише літери від A до F, цифри, дефіси та підкреслення. %s"
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:107
+msgid "Baidu verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr "Коди підтвердження Baidu можуть містити лише літери, цифри, дефіси та підкреслення. %s"
+
+#: admin/views/partial-notifications-template.php:45
+msgid "Show this item."
+msgstr "Показати цей елемент."
+
+#: admin/views/partial-notifications-template.php:38
+msgid "Hide this item."
+msgstr "Приховати цей елемент."
+
+#. translators: %s: additional message with the submitted invalid value
+#: admin/class-yoast-input-validation.php:117
+msgid "Google verification codes can only contain letters, numbers, hyphens, and underscores. %s"
+msgstr "Коди підтвердження Google можуть містити лише літери від A до F, цифри, дефіси та підкреслення. %s"
+
+#. translators: %d expands the amount of hidden problems.
+#: admin/views/partial-notifications-errors.php:25
+msgid "You have %d hidden problem:"
+msgid_plural "You have %d hidden problems:"
+msgstr[0] "Ви маєте %d приховану проблему:"
+msgstr[1] "Ви маєте %d приховані проблеми:"
+msgstr[2] "Ви маєте %d прихованих проблем:"
+
+#. translators: %d expands the amount of hidden notifications.
+#: admin/views/partial-notifications-warnings.php:25
+msgid "You have %d hidden notification:"
+msgid_plural "You have %d hidden notifications:"
+msgstr[0] "Ви маєте %d приховане сповіщення:"
+msgstr[1] "Ви маєте %d прихованих сповіщення:"
+msgstr[2] "Ви маєте %d прихованих сповіщень:"
+
+#: src/helpers/score-icon-helper.php:84
+msgid "Focus keyphrase not set"
+msgstr "Ключову фразу фокусування не встановлено"
+
+#. translators: %1$s: amount of errors, %2$s: the admin page title
+#: admin/class-yoast-input-validation.php:65
+msgid "The form contains %1$s error. %2$s"
+msgid_plural "The form contains %1$s errors. %2$s"
+msgstr[0] "Форма містить %1$s помилку. %2$s"
+msgstr[1] "Форма містить %1$s помилки. %2$s"
+msgstr[2] "Форма містить %1$s помилок. %2$s"
+
+#. translators: %s expands to the extension title
+#: admin/views/licenses.php:212 admin/views/licenses.php:323
+msgid "Activate %s for your site on MyYoast"
+msgstr "Активувати %s для вашого сайту на MyYoast"
+
+#: admin/class-customizer.php:109 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:121
+msgid "Show blog page in breadcrumbs"
+msgstr "Показувати сторінку блога в навігаційних стежках"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the SEO score.
+#: admin/formatter/class-metabox-formatter.php:113
+#: admin/formatter/class-metabox-formatter.php:120
+#: admin/formatter/class-metabox-formatter.php:127
+#: admin/formatter/class-metabox-formatter.php:134
+msgid "%1$sSEO%2$s: %3$s"
+msgstr "%1$sSEO%2$s: %3$s"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the readability score.
+#: admin/formatter/class-metabox-formatter.php:143
+#: admin/formatter/class-metabox-formatter.php:150
+#: admin/formatter/class-metabox-formatter.php:157
+#: admin/formatter/class-metabox-formatter.php:164
+msgid "%1$sReadability%2$s: %3$s"
+msgstr "%1$sЧитабельність%2$s: %3$s"
+
+#. translators: %s expands to the score
+#: admin/statistics/class-statistics-service.php:216
+#: admin/statistics/class-statistics-service.php:221
+#: admin/statistics/class-statistics-service.php:226
+msgid "Posts with the SEO score: %s"
+msgstr "Записи з SEO оцінкою: %s"
+
+#. translators: %s expands to the SEO score
+#: inc/class-wpseo-rank.php:170 inc/class-wpseo-rank.php:175
+#: inc/class-wpseo-rank.php:180 inc/class-wpseo-rank.php:185
+#: inc/class-wpseo-rank.php:190
+msgid "SEO: %s"
+msgstr "SEO: %s"
+
+#: inc/class-wpseo-rank.php:191
+msgid "Post Noindexed"
+msgstr "Запис відмічений noindex"
+
+#: inc/class-wpseo-rank.php:171
+msgid "No Focus Keyphrase"
+msgstr "Немає фокусної ключової фрази"
+
+#. translators: %s: expends to Yoast SEO
+#: admin/class-admin.php:344
+msgid "%s video tutorial"
+msgstr "Навчальні відео %s"
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:39
+msgid "To view your current crawl errors, %1$splease visit Google Search Console%2$s."
+msgstr "Щоб ознайомитись з актуальними результатами перевірки помилок, %1$sбудь-ласка, відвідайте панель адміністратора Google%2$s."
+
+#. Translators: %1$s: expands to opening anchor tag, %2$s expands to closing
+#. anchor tag.
+#: admin/google_search_console/views/gsc-display.php:32
+msgid "Google has discontinued its Crawl Errors API. Therefore, any possible crawl errors you might have cannot be displayed here anymore. %1$sRead our statement on this for further information%2$s."
+msgstr "Робота Google API для перевірки помилок припинена. З цієї причини будь-які можливі результати перевірки не можуть бути відображеними. %1$sОзнайомтесь з нашою угодою з цього приводу для отримання подальшої інформації%2$s."
+
+#: src/integrations/admin/first-time-configuration-integration.php:476
+#: src/integrations/admin/first-time-configuration-integration.php:489
+#: js/dist/new-settings.js:292
+msgid "Organization"
+msgstr "Організація"
+
+#. translators: %1$s is a link start tag to the Search Appearance settings,
+#. %2$s is the link closing tag.
+#: admin/class-schema-person-upgrade-notification.php:60
+msgid "You have previously set your site to represent a person. We’ve improved our functionality around Schema and the Knowledge Graph, so you should go in and %1$scomplete those settings%2$s."
+msgstr "Раніше ви встановили, що ваш сайт буде представляти інтереси конкретної особи. Ми покращили нашу функціональність по відношенню до Schema та Knowledge Graph, тому вам необхідно ввійти та %1$s заповнити ці налаштування %2$s."
+
+#: admin/class-admin.php:309
+msgid "(if one exists)"
+msgstr "(якщо існує)"
+
+#: admin/class-admin.php:306
+msgid "Tumblr profile URL"
+msgstr "Посилання на профіль Tumblr"
+
+#: admin/class-admin.php:305
+msgid "SoundCloud profile URL"
+msgstr "Посилання на профіль SoundCloud"
+
+#: admin/class-admin.php:303
+msgid "MySpace profile URL"
+msgstr "Посилання на профіль MySpace"
+
+#: src/generators/schema/article.php:137
+msgid "Uncategorized"
+msgstr "Без категорії"
+
+#: admin/class-admin.php:309
+msgid "Wikipedia page about you"
+msgstr "Сторінка Wikipedia про тебе"
+
+#: admin/class-admin.php:308
+msgid "YouTube profile URL"
+msgstr "Посилання на профіль в YouTube"
+
+#: admin/class-admin.php:304
+msgid "Pinterest profile URL"
+msgstr "Посилання на профіль Pinterest"
+
+#: admin/class-admin.php:302
+msgid "LinkedIn profile URL"
+msgstr "Посилання на профіль LinkedIn"
+
+#: admin/class-admin.php:301
+msgid "Instagram profile URL"
+msgstr "Посилання на профіль Instagram"
+
+#: inc/class-my-yoast-api-request.php:141
+msgid "No JSON object was returned."
+msgstr "Не було повернуто JSON об‘єкта"
+
+#: src/integrations/admin/link-count-columns-integration.php:138
+msgid "Outgoing internal links"
+msgstr "Вихідні внутрішні посилання"
+
+#: src/integrations/admin/link-count-columns-integration.php:145
+msgid "Received internal links"
+msgstr "Отримані внутрішні посилання"
+
+#: admin/class-meta-columns.php:111 js/dist/block-editor.js:174
+#: js/dist/classic-editor.js:170 js/dist/editor-modules.js:124
+#: js/dist/elementor.js:188 js/dist/wincher-dashboard-widget.js:88
+msgid "Keyphrase"
+msgstr "Ключова фраза"
+
+#. translators: 1: Yoast SEO.
+#: src/services/health-check/links-table-reports.php:87
+msgid "For this feature to work, %1$s needs to create a table in your database. We were unable to create this table automatically."
+msgstr "Для роботи цієї функції, %1$s необхідно створити таблицю в вашій базі даних. Нам не вдалось створити таблицю автоматично."
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:40
+msgid "Cannot get the size of %1$s because of unknown reasons."
+msgstr "Неможливо отримати розмір %1$s з невідомих причин."
+
+#. translators: %1$s expands to the requested url
+#: admin/exceptions/class-file-size-exception.php:23
+msgid "Cannot get the size of %1$s because it is hosted externally."
+msgstr "Неможливо отримати розмір %1$s, оскільки його розміщено на зовнішньому ресурсі."
+
+#. translators: %s expands to the current page number
+#: src/generators/breadcrumbs-generator.php:410
+msgid "Page %s"
+msgstr "Сторінка %s"
+
+#. translators: %1$s expands to the method name. %2$s expands to the class name
+#: src/exceptions/missing-method.php:24
+msgid "Method %1$s() does not exist in class %2$s"
+msgstr "Метод %1$s() не існує у класі %2$s"
+
+#: admin/import/class-import-settings.php:85
+msgid "No settings found."
+msgstr "Налаштувань не знайдено."
+
+#: admin/class-export.php:50
+msgid "You do not have the required rights to export settings."
+msgstr "У вас немає необхідних прав для експорту налаштувань."
+
+#. translators: %1$s expands to Import settings
+#: admin/class-export.php:57
+msgid "Copy all these settings to another site's %1$s tab and click \"%1$s\" there."
+msgstr "Скопіюйте всі ці налаштування на вкладку %1$s іншого веб-сайту та натисніть \"%1$s\" там."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:26
+msgid "Export your %1$s settings here, to copy them on another site."
+msgstr "Експортуйте ваші %1$s налаштування сюди, щоб скопіювати їх на інший сайт."
+
+#. translators: %s expands to Yoast SEO Premium
+#: admin/watchers/class-slug-change-watcher.php:220
+msgid "With %s, you can easily create such redirects."
+msgstr "З %s, ви можете легко створити такі перенаправлення."
+
+#: admin/views/tabs/tool/wpseo-import.php:15
+msgid "Import of settings is only supported on servers that run PHP 5.3 or higher."
+msgstr "Імпорт налаштувань доступний тільки на серверах з PHP 5.3 або вище."
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to Yoast.com
+#: admin/class-export.php:89
+msgid "These are settings for the %1$s plugin by %2$s"
+msgstr "Це налаштування для плагіна %1$s від %2$s"
+
+#: admin/class-admin-init.php:327
+msgid "WARNING:"
+msgstr "ПОПЕРЕДЖЕННЯ:"
+
+#. translators: %s expands to Yoast SEO Premium
+#. translators: %s expands to "Yoast SEO" Premium
+#: admin/class-premium-upsell-admin-block.php:86 js/dist/new-settings.js:306
+msgid "Upgrade to %s"
+msgstr "Оновити до %s"
+
+#: admin/class-admin-init.php:336
+msgid "Learn about why permalinks are important for SEO."
+msgstr "Дізнайтеся чому постійні посилання важливі для SEO."
+
+#. translators: %1$s and %2$s expand to <em> items to emphasize the word in the
+#. middle.
+#: admin/class-admin-init.php:330
+msgid "Changing your permalinks settings can seriously impact your search engine visibility. It should almost %1$s never %2$s be done on a live website."
+msgstr "Зміна налаштувань постійних посилань може серйозно вплинути на видимість сайту в пошукових системах. Майже %1$s ніколи %2$s цього краще не робити на діючому сайті."
+
+#: admin/views/tabs/network/features.php:95
+#: admin/views/tabs/network/integrations.php:82
+#: src/integrations/admin/crawl-settings-integration.php:256
+msgid "Disable"
+msgstr "Відключити"
+
+#: admin/views/tabs/network/features.php:94
+#: admin/views/tabs/network/integrations.php:81
+#: src/integrations/admin/crawl-settings-integration.php:254
+msgid "Allow Control"
+msgstr "Дозволити контроль"
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/network/crawl-settings.php:24
+#: admin/views/tabs/network/features.php:27
+msgid "This tab allows you to selectively disable %s features for all sites in the network. By default all features are enabled, which allows site admins to choose for themselves if they want to toggle a feature on or off for their site. When you disable a feature here, site admins will not be able to use that feature at all."
+msgstr "На цій вкладці можна вибірково вимкнути можливості %s для всіх сайтів мережі. За замовчуванням усі можливості увімкнені, що дозволяє адміністраторам сайту налаштовувати їх самостійно для своїх сайтів. Якщо ви вимкнете будь-яку можливість тут, то адміністратори сайту зовсім не зможуть її використати."
+
+#: admin/formatter/class-metabox-formatter.php:72
+msgid "Remove keyphrase"
+msgstr "Прибрати ключове слово"
+
+#: admin/formatter/class-metabox-formatter.php:71
+msgid "Keyphrase:"
+msgstr "Ключове слово:"
+
+#. translators: %s: argument name
+#: admin/views/class-yoast-feature-toggle.php:161
+msgid "%s is a required feature toggle argument."
+msgstr "%s - необхідний аргумент для включення або виключення можливості."
+
+#: admin/class-meta-columns.php:172
+msgid "Focus keyphrase not set."
+msgstr "Фокусне ключове слово не встановлено."
+
+#: admin/class-premium-upsell-admin-block.php:58 js/dist/new-settings.js:306
+msgid "Multiple keyphrases"
+msgstr "Множинні ключові слова"
+
+#: admin/class-yoast-form.php:749 admin/metabox/class-metabox.php:655
+#: admin/taxonomy/class-taxonomy-fields-presenter.php:133
+msgid "Clear Image"
+msgstr "Очистити зображення"
+
+#: admin/class-yoast-form.php:1040 js/dist/first-time-configuration.js:13
+msgid "This feature has been disabled by the network admin."
+msgstr "Ця можливість відключена адміністратором мережі."
+
+#. translators: %s expands to Yoast SEO Premium
+#. translators: %s expands to 'Yoast SEO Premium'.
+#. translators: %s expands to "Yoast SEO" Premium
+#: admin/class-premium-popup.php:81
+#: admin/class-premium-upsell-admin-block.php:69
+#: admin/watchers/class-slug-change-watcher.php:224
+#: src/presenters/admin/sidebar-presenter.php:61 js/dist/block-editor.js:204
+#: js/dist/classic-editor.js:200 js/dist/elementor.js:218
+#: js/dist/externals-components.js:13 js/dist/externals-components.js:129
+#: js/dist/externals-components.js:147 js/dist/externals-components.js:149
+#: js/dist/externals-components.js:151 js/dist/externals-components.js:153
+#: js/dist/new-settings.js:308
+msgid "Get %s"
+msgstr "Отримайте %s"
+
+#: inc/options/class-wpseo-option-titles.php:976
+msgid "Colon"
+msgstr "Двокрапка"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'SEO' plugin name of possibly
+#. conflicting plugin with regard to the creation of duplicate SEO meta.
+#: admin/class-plugin-conflict.php:88
+msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins at the same time is detrimental."
+msgstr "%1$s та %2$s керують налаштуваннями SEO вашого сайту. Запуск двух SEO плагінів одночасно може нашкодити вашому сайту."
+
+#: inc/class-wpseo-admin-bar-menu.php:874
+msgid "There is a new notification."
+msgid_plural "There are new notifications."
+msgstr[0] "Є нове сповіщення."
+msgstr[1] "Є нових сповіщення."
+msgstr[2] "Є нових сповіщень."
+
+#. translators: %d expands to the number of day/days.
+#: src/integrations/blocks/structured-data-blocks.php:191
+#: js/dist/block-editor.js:93 js/dist/classic-editor.js:89
+#: js/dist/editor-modules.js:51 js/dist/elementor.js:107
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:9
+#: js/dist/wincher-dashboard-widget.js:1
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d день"
+msgstr[1] "%d дні"
+msgstr[2] "%d днів"
+
+#. translators: %1$s expands to Yoast.
+#: src/integrations/blocks/block-categories.php:37
+msgid "%1$s Structured Data Blocks"
+msgstr "%1$s структуровані блоки даних"
+
+#. translators: %d expands to the number of hour/hours.
+#: src/integrations/blocks/structured-data-blocks.php:198
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:9
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d година"
+msgstr[1] "%d години"
+msgstr[2] "%d годин"
+
+#. translators: %d expands to the number of minute/minutes.
+#: src/integrations/blocks/structured-data-blocks.php:205
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:9
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d хвилина"
+msgstr[1] "%d хвилини"
+msgstr[2] "%d хвилин"
+
+#: src/integrations/blocks/structured-data-blocks.php:256
+#: js/dist/structured-data-blocks.js:5 js/dist/structured-data-blocks.js:13
+msgid "Time needed:"
+msgstr "Потрібний час:"
+
+#: inc/class-wpseo-admin-bar-menu.php:429
+msgid "Check links to this URL"
+msgstr "Перевірте посилання до цього URL"
+
+#. translators: %s: error message
+#: admin/class-yoast-network-admin.php:208
+msgid "Error: %s"
+msgstr "Помилка: %s"
+
+#: admin/class-yoast-network-admin.php:81
+msgid "deleted"
+msgstr "видалено"
+
+#. translators: %s: success message
+#: admin/class-yoast-network-admin.php:206
+msgid "Success: %s"
+msgstr "Вдало: %s"
+
+#: admin/pages/network.php:31
+msgid "Restore Site"
+msgstr "Відновити сайт"
+
+#: inc/class-wpseo-admin-bar-menu.php:505 js/dist/structured-data-blocks.js:13
+msgid "How to"
+msgstr "How to"
+
+#: admin/menu/class-network-admin-menu.php:34
+msgid "Network Settings"
+msgstr "Налаштування мережі"
+
+#. translators: %s expands to the ID of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:168
+msgid "Site with ID %d not found."
+msgstr "Сайт з ID %d не знайдений."
+
+#: admin/class-yoast-network-admin.php:159
+msgid "No site has been selected to restore."
+msgstr "Не вибрано сайт для відновлення."
+
+#: admin/class-yoast-network-admin.php:120
+msgid "You are not allowed to modify unregistered network settings."
+msgstr "Вам не дозволено змінювати незареєстровані налаштування мережі."
+
+#: admin/class-yoast-network-admin.php:276
+msgid "You are not allowed to perform this action."
+msgstr "Вам не дозволено виконувати цю дію."
+
+#: inc/class-wpseo-replace-vars.php:1474
+msgid "The site's tagline"
+msgstr "Ключова фраза сайту"
+
+#. translators: %1$s expands to the missing field name.
+#: admin/menu/class-replacevar-editor.php:150
+msgid "Not all required fields are given. Missing field %1$s"
+msgstr "Не всі обов'язкові поля заповнені. Пропущено поле %1$s"
+
+#: inc/class-wpseo-replace-vars.php:1488 js/dist/externals-redux.js:1
+msgid "Current year"
+msgstr "Поточний рік"
+
+#: inc/class-wpseo-replace-vars.php:1517 js/dist/externals-redux.js:1
+msgid "Page"
+msgstr "Сторінка"
+
+#: inc/class-wpseo-replace-vars.php:1479 js/dist/externals-redux.js:1
+msgid "Primary category"
+msgstr "Головна категорія"
+
+#: inc/class-wpseo-replace-vars.php:1473 js/dist/externals-redux.js:1
+msgid "Site title"
+msgstr "Назва сайту"
+
+#: inc/class-wpseo-replace-vars.php:1480 js/dist/externals-redux.js:1
+msgid "Category description"
+msgstr "Опис категорії"
+
+#: inc/class-wpseo-replace-vars.php:1481 js/dist/externals-redux.js:1
+msgid "Tag description"
+msgstr "Опис тегу"
+
+#: inc/class-wpseo-replace-vars.php:1471 js/dist/externals-redux.js:1
+msgid "Parent title"
+msgstr "Назва предка"
+
+#: inc/class-wpseo-replace-vars.php:1474 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:28 js/dist/new-settings.js:278
+msgid "Tagline"
+msgstr "Ключова фраза"
+
+#: inc/class-wpseo-replace-vars.php:1520
+msgid "Caption"
+msgstr "Підпис"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "User description"
+msgstr "Опис користувача"
+
+#: inc/class-wpseo-replace-vars.php:1514 js/dist/externals-redux.js:1
+msgid "ID"
+msgstr "ID"
+
+#: inc/class-wpseo-replace-vars.php:1513
+msgid "Modified"
+msgstr "Змінений"
+
+#: inc/class-wpseo-replace-vars.php:1477
+msgid "Tag"
+msgstr "Позначка"
+
+#: inc/class-wpseo-replace-vars.php:1469 js/dist/externals-redux.js:1
+msgid "Date"
+msgstr "Дата"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "Pagenumber"
+msgstr "Номер сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1518
+msgid "Pagetotal"
+msgstr "Кількість сторінок"
+
+#: inc/class-wpseo-replace-vars.php:1482 js/dist/externals-redux.js:1
+msgid "Term description"
+msgstr "Опис терміну"
+
+#: inc/class-wpseo-replace-vars.php:1476 js/dist/externals-redux.js:1
+msgid "Excerpt only"
+msgstr "Тільки уривок"
+
+#: inc/class-wpseo-admin-bar-menu.php:596 js/dist/block-editor.js:253
+#: js/dist/classic-editor.js:249 js/dist/elementor.js:267
+msgid "Get Yoast SEO Premium"
+msgstr "Хочеш панську версію Yoast SEO?"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Term404"
+msgstr "Елемент404"
+
+#: inc/class-wpseo-replace-vars.php:1478 js/dist/externals-redux.js:1
+msgid "Category"
+msgstr "Категорія"
+
+#: inc/class-wpseo-replace-vars.php:1484 js/dist/externals-redux.js:1
+msgid "Search phrase"
+msgstr "Пошукова фраза"
+
+#: admin/watchers/class-slug-change-watcher.php:214
+msgid "Make sure you don't miss out on traffic!"
+msgstr "Переконайтеся, що ви не втрачаєте трафік!"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "description (custom taxonomy)"
+msgstr "опис (довільна таксономия)"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "(custom taxonomy)"
+msgstr "(довільна таксономія)"
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "(custom field)"
+msgstr "(довільне поле)"
+
+#: inc/class-wpseo-replace-vars.php:1512
+msgid "Post type (plural)"
+msgstr "Тип дописів (множина)"
+
+#: inc/class-wpseo-replace-vars.php:1511
+msgid "Post type (singular)"
+msgstr "Тип допису (однина)"
+
+#: inc/class-wpseo-replace-vars.php:1483
+msgid "Term title"
+msgstr "Заголовок терміну"
+
+#: admin/watchers/class-slug-change-watcher.php:218
+msgid "You should create a redirect to ensure your visitors do not get a 404 error when they click on the no longer working URL."
+msgstr "Вам варто створити перенаправлення, щоб відвідувачі не отримували 404 помилку при переході на URL який вже не існує."
+
+#: admin/watchers/class-slug-change-watcher.php:217
+msgid "Search engines and other websites can still send traffic to your deleted post."
+msgstr "Пошукові системи та інші сайти все ще можуть генерувати трафік на видалений допис."
+
+#. translators: %1$s expands to the translated name of the post type.
+#. translators: 1: term label
+#: admin/watchers/class-slug-change-watcher.php:84
+#: admin/watchers/class-slug-change-watcher.php:105
+msgid "You just deleted a %1$s."
+msgstr "Ви видалили %1$s."
+
+#. translators: %1$s expands to the translated name of the post type.
+#: admin/watchers/class-slug-change-watcher.php:65
+msgid "You just trashed a %1$s."
+msgstr "Ви перемістили %1$s в кошик."
+
+#: inc/class-wpseo-replace-vars.php:1475 js/dist/externals-redux.js:1
+msgid "Excerpt"
+msgstr "Уривок"
+
+#: inc/class-wpseo-replace-vars.php:1486 js/dist/externals-redux.js:1
+#: js/dist/new-settings.js:28
+msgid "Separator"
+msgstr "Роздільник"
+
+#: inc/class-wpseo-replace-vars.php:1472
+msgid "Archive title"
+msgstr "Заголовок архіву"
+
+#: admin/class-bulk-editor-list-table.php:1003
+msgid "Content Type"
+msgstr "Тип вмісту"
+
+#. translators: %s is replaced with Yoast SEO.
+#: admin/import/plugins/class-abstract-plugin-importer.php:257
+msgid "The %s importer functionality uses temporary database tables. It seems your WordPress install does not have the capability to do this, please consult your hosting provider."
+msgstr "The %sФункція імпортера використовує тимчасові таблиці бази даних. Здається, ваша установка WordPress не має можливості зробити це, будь ласка, зверніться до свого хостинг- провайдера."
+
+#: admin/class-bulk-editor-list-table.php:411
+msgid "Filter by content type"
+msgstr "Фільтрувати за типом вмісту"
+
+#: admin/class-bulk-editor-list-table.php:394
+msgid "Show All Content Types"
+msgstr "Показати всі типи вмісту"
+
+#. translators: %s is replaced with the plugin's name.
+#: admin/import/plugins/class-abstract-plugin-importer.php:132
+msgid "Cleanup of %s data failed."
+msgstr "Очищення від %s дані не вдалося."
+
+#: inc/class-wpseo-replace-vars.php:1472
+msgid "Replaced with the normal title for an archive generated by WordPress"
+msgstr "Замінений звичайним заголовком для архіву, створеного WordPress"
+
+#: admin/views/tabs/tool/import-seo.php:137
+msgid "Clean"
+msgstr "Очистити"
+
+#: admin/views/tabs/tool/import-seo.php:128
+msgid "Once you're certain your site is OK, you can clean up. This will remove all the original data."
+msgstr "Коли ви впевнені, що ваш сайт в порядку, ви можете його очистити. Це призведе до видалення всіх оригінальних даних."
+
+#: admin/views/tabs/tool/import-seo.php:107
+msgid "Please check your posts and pages and see if the metadata was successfully imported."
+msgstr "Перевірте свої повідомлення і сторінки та переконайтеся, чи були метадані імпортовані успішно."
+
+#: admin/views/tabs/tool/import-seo.php:57
+msgid "Please make a backup of your database before starting this process."
+msgstr "Будь ласка, створіть резервну копію вашої бази даних, перш ніж почати цей процес."
+
+#: admin/views/tabs/tool/import-seo.php:51
+msgid "We've detected data from one or more SEO plugins on your site. Please follow the following steps to import that data:"
+msgstr "Ми виявили дані одного або кількох плагінів SEO на вашому сайті. Щоб імпортувати ці дані, виконайте наведені нижче дії:"
+
+#: admin/statistics/class-statistics-service.php:229
+msgid "Posts that should not show up in search results"
+msgstr "Публікації, які не повинні відображатися в результатах пошуку"
+
+#. translators: %s is replaced with the name of the plugin we've found data
+#. from.
+#: admin/import/class-import-status.php:128
+msgid "%s data found."
+msgstr "%s знайдено."
+
+#. translators: %s is replaced with the name of the plugin we're removing data
+#. from.
+#: admin/import/class-import-status.php:124
+msgid "%s data successfully removed."
+msgstr "%s успішно видалено."
+
+#. translators: %s is replaced with the name of the plugin we're importing data
+#. from.
+#: admin/import/class-import-status.php:121
+msgid "%s data successfully imported."
+msgstr "%s успішно імпортовано."
+
+#. translators: %s is replaced with the name of the plugin we're trying to find
+#. data from.
+#: admin/import/class-import-status.php:61
+msgid "%s data not found."
+msgstr "%s не знайдено."
+
+#: admin/views/tabs/tool/import-seo.php:126
+msgid "Step 5: Clean up"
+msgstr "Крок 5: Очистити"
+
+#: admin/views/tabs/tool/import-seo.php:105
+msgid "Step 3: Check your data"
+msgstr "Крок 3: Перевірте свої дані"
+
+#: admin/views/tabs/tool/import-seo.php:62
+msgid "Step 2: Import"
+msgstr "Крок 2: Імпорт"
+
+#: admin/views/tabs/tool/import-seo.php:55
+msgid "Step 1: Create a backup"
+msgstr "Крок 1: Створіть резервну копію"
+
+#: admin/views/tabs/tool/import-seo.php:39
+msgid "Plugin: "
+msgstr "Плагін: "
+
+#. translators: %s expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:22
+msgid "%s did not detect any plugin data from plugins it can import from."
+msgstr "%s не виявив жодних даних плагіна з плагінів, з яких він може імпортувати."
+
+#. translators: 1: expands to Yoast SEO
+#: admin/views/tabs/tool/import-seo.php:67
+msgid "This will import the post metadata like SEO titles and descriptions into your %1$s metadata. It will only do this when there is no existing %1$s metadata yet. The original data will remain in place."
+msgstr "Це імпортує метадані типу заголовка SEO та описів в метадані %1$s. Це станеться тільки в тому випадку, якщо ви ще не задали метадані %1$s. Початкові дані залишаться на місці."
+
+#: admin/class-premium-upsell-admin-block.php:60 js/dist/block-editor.js:200
+#: js/dist/classic-editor.js:196 js/dist/elementor.js:214
+#: js/dist/externals-components.js:9 js/dist/externals-components.js:125
+#: js/dist/new-settings.js:306
+msgid "24/7 email support"
+msgstr "Підтримка по e-mail 24/7"
+
+#: admin/views/user-profile.php:15
+msgid "this author's archives"
+msgstr "архіви цього автора"
+
+#. translators: %s expands to "this author's archives".
+#: admin/views/user-profile.php:14
+msgid "Do not allow search engines to show %s in search results."
+msgstr "Не дозволяйте пошуковим системам показувати %s у результатах пошуку."
+
+#. translators: %s expands to a feature's name
+#. translators: %s expands to an integration's name
+#: admin/views/tabs/network/features.php:62
+#: admin/views/tabs/network/integrations.php:50
+msgid "Help on: %s"
+msgstr "Довідка по: %s"
+
+#: admin/class-yoast-form.php:936 admin/class-yoast-form.php:976
+#: admin/metabox/class-metabox.php:210 js/dist/externals/componentsNew.js:778
+msgid "On"
+msgstr "Увімкнути"
+
+#: admin/class-yoast-form.php:937 admin/class-yoast-form.php:977
+#: admin/metabox/class-metabox.php:209
+#: admin/views/class-yoast-feature-toggles.php:160
+#: js/dist/externals/componentsNew.js:778
+msgid "Off"
+msgstr "Вимк."
+
+#: admin/views/class-yoast-feature-toggles.php:70
+msgid "See the XML sitemap."
+msgstr "Див. XML Sitemap."
+
+#: src/deprecated/admin/views/class-view-utils.php:66
+msgid "Help on this search results setting"
+msgstr "Довідка в цьому налаштуваннях результатів пошуку"
+
+#. translators: 1: expands to an indexable object's name, like a post type or
+#. taxonomy; 2: expands to <code>noindex</code>; 3: link open tag; 4: link
+#. close tag.
+#: src/deprecated/admin/views/class-view-utils.php:60
+msgid "Not showing the archive for %1$s in the search results technically means those will have a %2$s robots meta and will be excluded from XML sitemaps. %3$sMore info on the search results settings%4$s."
+msgstr "Не показуючи архів %1$s у результатах пошуку, технічно це означає, що вони матимуть мета %2$s роботів і будуть виключені з файлів XML-карт. %3$sДодаткова інформація про налаштування результатів пошуку%4$s.."
+
+#. translators: 1: expands to an indexable object's name, like a post type or
+#. taxonomy; 2: expands to <code>noindex</code>; 3: link open tag; 4: link
+#. close tag.
+#: src/deprecated/admin/views/class-view-utils.php:56
+msgid "Not showing %1$s in the search results technically means those will have a %2$s robots meta and will be excluded from XML sitemaps. %3$sMore info on the search results settings%4$s."
+msgstr "Не показ %1$s в результатах пошуку технічно означає, що вони матимуть мета %2$s роботів і будуть виключені з карт XML-карти. %3$sДодаткова інформація про налаштування результатів пошуку%4$s."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/dashboard/dashboard.php:19
+msgid "See who contributed to %1$s."
+msgstr "Подивіться, хто зробив внесок в %1$s."
+
+#. translators: %s: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:139
+msgid "Enable the XML sitemaps that %s generates."
+msgstr "Увімкнути XML-карти сайту, яка генерує %s."
+
+#: admin/views/class-yoast-feature-toggles.php:140
+msgid "Read why XML Sitemaps are important for your site."
+msgstr "Прочитайте, чому файли XML Sitemap важливі для вашого сайту."
+
+#. translators: %1$s expands to the post type name.
+#: admin/metabox/class-metabox.php:185
+msgid "Should search engines follow links on this %1$s?"
+msgstr "Чи повинні пошукові системи стежити за посиланнями на цьому %1$s?"
+
+#. translators: %1$s expands to Yes or No,  %2$s expands to the post type name.
+#: admin/metabox/class-metabox.php:180
+msgid "Default for %2$s, currently: %1$s"
+msgstr "За умовчанням для %2$s, наразі: %1$s"
+
+#. translators: %s expands to the post type name.
+#. Translators: %s translates to the Post Label in singular form
+#: admin/metabox/class-metabox.php:175 js/dist/block-editor.js:230
+#: js/dist/classic-editor.js:226 js/dist/elementor.js:244
+msgid "Allow search engines to show this %s in search results?"
+msgstr "Дозволити пошуковим системам показувати цей %s у результатах пошуку?"
+
+#. translators: %s expands to an indexable object's name, like a post type or
+#. taxonomy
+#: admin/class-yoast-form.php:947
+msgid "Show %s in search results?"
+msgstr "Показати %s у результатах пошуку?"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:80
+msgid "Toggle %1$s's XML Sitemap"
+msgstr "Переключити XML Sitemap %1$s"
+
+#: admin/views/class-yoast-feature-toggles.php:110
+msgid "The text link counter helps you improve your site structure."
+msgstr "Лічильник текстових посилань допомагає вам покращити структуру вашого сайту."
+
+#: admin/formatter/class-metabox-formatter.php:239
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Good results"
+msgstr "Гарні результати"
+
+#: admin/views/class-yoast-feature-toggles.php:78
+msgid "Learn how the SEO analysis can help you rank."
+msgstr "Дізнайтеся, як аналіз SEO може допомогти вам оцінити."
+
+#: admin/views/class-yoast-feature-toggles.php:85 js/dist/new-settings.js:288
+msgid "The readability analysis offers suggestions to improve the structure and style of your text."
+msgstr "Аналіз читабельності пропонує пропозиції щодо вдосконалення структури та стилю вашого тексту."
+
+#: admin/views/class-yoast-feature-toggles.php:86
+msgid "Discover why readability is important for SEO."
+msgstr "Дізнайтеся, чому читацькість важлива для SEO."
+
+#: admin/views/class-yoast-feature-toggles.php:111
+msgid "Find out how the text link counter can enhance your SEO."
+msgstr "Дізнайтеся, як лічильник текстових посилань може покращити ваш SEO."
+
+#. translators: %s: 'Semrush'
+#. translators: %s: Algolia.
+#. translators: %s: 'Wincher'
+#. translators: %s expands to WordProof
+#: admin/views/class-yoast-integration-toggles.php:67
+#: admin/views/class-yoast-integration-toggles.php:78
+#: src/integrations/third-party/wincher.php:68
+#: src/integrations/third-party/wordproof-integration-toggle.php:77
+msgid "%s integration"
+msgstr "%s інтеграція"
+
+#. translators: %s expands to WordProof
+#: src/integrations/third-party/wordproof-integration-toggle.php:85
+msgid "Read more about how %s works."
+msgstr "Дізнайтеся більше про те, як працює %s."
+
+#: admin/views/class-yoast-feature-toggles.php:75
+#: js/dist/externals-components.js:156 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "SEO analysis"
+msgstr "SEO аналіз"
+
+#: admin/views/class-yoast-feature-toggles.php:77
+msgid "The SEO analysis offers suggestions to improve the SEO of your text."
+msgstr "SEO аналіз пропонує пропозиції щодо вдосконалення SEO вашого тексту."
+
+#: admin/views/class-yoast-feature-toggles.php:102
+msgid "The cornerstone content feature lets you to mark and filter cornerstone content on your website."
+msgstr "Функція ключового вмісту дозволяє вам вказувати ключовий вміст на вашому сайті та фільтрувати по ньому."
+
+#: admin/views/class-yoast-feature-toggles.php:103
+msgid "Find out how cornerstone content can help you improve your site structure."
+msgstr "Дізнайтеся, як зміст функції сонтенту може допомогти вам покращити структуру вашого сайту."
+
+#. Plugin URI of the plugin
+msgid "https://yoa.st/1uj"
+msgstr "https://yoa.st/1uj"
+
+#. Author URI of the plugin
+msgid "https://yoa.st/1uk"
+msgstr "https://yoa.st/1uk"
+
+#. translators: %1$s resolves to Yoast.com
+#: admin/class-yoast-dashboard-widget.php:122
+msgid "Latest blog posts on %1$s"
+msgstr "Останні записи блогів в %1$s"
+
+#: admin/formatter/class-metabox-formatter.php:241
+#: js/dist/externals/analysisReport.js:17
+msgid "Remove highlight from the text"
+msgstr "Видалити виділення з тексту"
+
+#: src/helpers/first-time-configuration-notice-helper.php:68
+msgid "First-time SEO configuration"
+msgstr "Перше налаштування SEO"
+
+#: admin/formatter/class-metabox-formatter.php:235
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Errors"
+msgstr "Помилки"
+
+#: admin/formatter/class-metabox-formatter.php:238
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Considerations"
+msgstr "Міркування"
+
+#: admin/formatter/class-metabox-formatter.php:240
+#: js/dist/externals/analysisReport.js:17
+msgid "Highlight this result in the text"
+msgstr "Виділіть цей результат у тексті"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:28
+msgid "You cannot create a %s file."
+msgstr "Ви не можете створити %s файл."
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:65
+msgid "Updated %s"
+msgstr "Оновлено %s"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:165 admin/views/tool-file-editor.php:215
+msgid "Edit the content of your %s:"
+msgstr "Редагувати вміст вашого %s:"
+
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:186
+msgid "%s file"
+msgstr "%s файл"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:49 admin/views/tool-file-editor.php:76
+msgid "You cannot edit the %s file."
+msgstr "Ви не можете редагувати файл %s."
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:125
+msgid "Create %s file"
+msgstr "Створити %s файл"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:174 admin/views/tool-file-editor.php:224
+msgid "Save changes to %s"
+msgstr "Зберегти зміни до %s"
+
+#. translators: %1$s expands to the dependency name.
+#: admin/class-suggested-plugins.php:136
+msgid "More information about %1$s"
+msgstr "Докладніше про %1$s"
+
+#: src/integrations/admin/old-configuration-integration.php:38
+msgid "Old Configuration Wizard"
+msgstr "Старий майстер конфігурації"
+
+#: admin/class-admin-utils.php:78 admin/class-premium-popup.php:82
+#: admin/class-premium-upsell-admin-block.php:70 admin/class-yoast-form.php:912
+#: admin/formatter/class-metabox-formatter.php:243 admin/views/licenses.php:125
+#: admin/watchers/class-slug-change-watcher.php:225
+#: src/integrations/admin/workouts-integration.php:210
+#: src/integrations/admin/workouts-integration.php:239
+#: src/presenters/admin/help-link-presenter.php:75 js/dist/academy.js:6
+#: js/dist/block-editor.js:295 js/dist/elementor.js:97
+#: js/dist/externals/componentsNew.js:136 js/dist/externals/helpers.js:18
+#: js/dist/integrations-page.js:3 js/dist/integrations-page.js:15
+#: js/dist/integrations-page.js:23 js/dist/introductions.js:9
+#: js/dist/new-settings.js:9 js/dist/post-edit.js:9 js/dist/support.js:1
+#: js/dist/support.js:27
+msgid "(Opens in a new browser tab)"
+msgstr "(Відкриється в новій вкладці браузера)"
+
+#. translators: %1$s expands to the posttype label, %2$s expands anchor to blog
+#. post about cornerstone content, %3$s expands to </a>
+#: admin/filters/class-cornerstone-filter.php:104
+msgid "Mark the most important %1$s as 'cornerstone content' to improve your site structure. %2$sLearn more about cornerstone content%3$s."
+msgstr "Позначте найважливіший %1$s як \"основний зміст\", щоб покращити структуру вашого сайту. %2$s Докладніше про наріжний камінь %3$s."
+
+#. translators: %s expands to the extension title
+#: admin/views/licenses.php:199 admin/views/licenses.php:309
+msgid "Manage your %s subscription on MyYoast"
+msgstr "Керування %s підпискою My Yoast"
+
+#: admin/statistics/class-statistics-service.php:73
+msgid "You don't have any published posts, your SEO scores will appear here once you make your first post!"
+msgstr "У вас немає опублікованих публікацій, ваші результати SEO з'являться тут, як тільки ви створите свій перший пост!"
+
+#: admin/statistics/class-statistics-service.php:77
+msgid "Hey, your SEO is doing pretty well! Check out the stats:"
+msgstr "Ей! У вас відмінні оцінки SEO! Подивіться статистику:"
+
+#. translators: %1$s expands to an opening strong tag, %2$s expands to a
+#. closing strong tag
+#: admin/statistics/class-statistics-service.php:210
+msgid "Posts %1$swithout%2$s a focus keyphrase"
+msgstr "Дописів %1$sбез%2$s фокусного ключового слова"
+
+#: admin/class-yoast-dashboard-widget.php:125
+msgid "Read more like this on our SEO blog"
+msgstr "Детальніше про це на нашому блозі SEO"
+
+#: admin/views/licenses.php:207 admin/views/licenses.php:318
+msgid "Not activated"
+msgstr "Не активовано"
+
+#: admin/views/licenses.php:194 admin/views/licenses.php:304
+msgid "Activated"
+msgstr "Активовано"
+
+#: admin/class-meta-columns.php:269
+msgid "Filter by Readability Score"
+msgstr "Фільтрувати за оцінкою читабельності"
+
+#: admin/class-meta-columns.php:273
+msgid "All Readability Scores"
+msgstr "Всі показники легкості читання"
+
+#. translators: %1$s expands to Yoast
+#: src/presenters/admin/sidebar-presenter.php:28
+msgid "%1$s recommendations for you"
+msgstr "%1$s рекомендує"
+
+#. translators: %s expands to the readability score
+#: inc/class-wpseo-rank.php:207 inc/class-wpseo-rank.php:212
+#: inc/class-wpseo-rank.php:217
+msgid "Readability: %s"
+msgstr "Читабельність: %s"
+
+#. translators: %1$s expands to the request method
+#: admin/class-remote-request.php:95
+msgid "Request method %1$s is not valid."
+msgstr "Запит методу %1$s недійсний."
+
+#: admin/views/class-yoast-feature-toggles.php:108 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Text link counter"
+msgstr "Лічильник текстових посилань"
+
+#: src/integrations/admin/link-count-columns-integration.php:137
+msgid "Number of outgoing internal links in this post. See \"Yoast Columns\" text in the help tab for more info."
+msgstr "Кількість внутрішніх посилань у цьому повідомленні. Щоб дізнатись більше, перегляньте текст \"Yoast Columns\" на вкладці \"Довідка\"."
+
+#: src/integrations/admin/link-count-columns-integration.php:144
+msgid "Number of internal links linking to this post. See \"Yoast Columns\" text in the help tab for more info."
+msgstr "Кількість внутрішніх посилань, що посилаються на це повідомлення. Щоб дізнатись більше, перегляньте текст \"Yoast Columns\" на вкладці \"Довідка\"."
+
+#. translators: %s expands to Yoast
+#: admin/class-yoast-columns.php:60
+msgid "%s Columns"
+msgstr "%s Колонки"
+
+#: admin/class-meta-columns.php:104
+#: admin/taxonomy/class-taxonomy-columns.php:91
+msgid "Readability score"
+msgstr "Оцінка читабельності"
+
+#: admin/filters/class-cornerstone-filter.php:87
+#: admin/views/class-yoast-feature-toggles.php:100
+#: js/dist/externals-components.js:16 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Cornerstone content"
+msgstr "Ключовий вміст"
+
+#: admin/class-yoast-form.php:141 admin/class-yoast-form.php:146
+#: js/dist/first-time-configuration.js:4 js/dist/new-settings.js:15
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#: admin/class-premium-popup.php:88 js/dist/block-editor.js:204
+#: js/dist/classic-editor.js:200 js/dist/elementor.js:218
+#: js/dist/externals-components.js:13 js/dist/externals-components.js:129
+msgid "1 year free support and updates included!"
+msgstr "1 рік безкоштовних оновлень та розширень включно!"
+
+#: admin/class-premium-upsell-admin-block.php:56 js/dist/block-editor.js:198
+#: js/dist/classic-editor.js:194 js/dist/elementor.js:212
+#: js/dist/externals-components.js:7 js/dist/externals-components.js:123
+#: js/dist/new-settings.js:306
+msgid "Superfast internal linking suggestions"
+msgstr "Супершвидкісні внутрішні посилання"
+
+#. translators: %2$s expands to 'RS Head Cleaner' plugin name of possibly
+#. conflicting plugin with regard to differentiating output between search
+#. engines and normal users.
+#: admin/class-plugin-conflict.php:85
+msgid "The plugin %2$s changes your site's output and in doing that differentiates between search engines and normal users, a process that's called cloaking. We highly recommend that you disable it."
+msgstr "Плагін %2$s змінює вихід вашого сайту, і це робить різницю між пошуковими системами та звичайними користувачами, процес, який називається маскуванням. Ми настійно рекомендуємо вимкнути його."
+
+#: admin/class-premium-upsell-admin-block.php:57 js/dist/new-settings.js:306
+msgid "Facebook & Twitter"
+msgstr "Facebook & Twitter"
+
+#: admin/class-premium-upsell-admin-block.php:57 js/dist/new-settings.js:306
+msgid "Social media preview"
+msgstr "Попередній огляд для соціальних мереж"
+
+#: admin/class-premium-upsell-admin-block.php:55 js/dist/new-settings.js:306
+msgid "Easy redirect manager"
+msgstr "Зручне керування перенаправленнями"
+
+#: admin/class-premium-upsell-admin-block.php:55 js/dist/new-settings.js:306
+msgid "No more dead links"
+msgstr "Більше немає мертвих посилань"
+
+#: admin/class-premium-upsell-admin-block.php:61 js/dist/block-editor.js:200
+#: js/dist/classic-editor.js:196 js/dist/elementor.js:214
+#: js/dist/externals-components.js:9 js/dist/externals-components.js:125
+#: js/dist/new-settings.js:306
+msgid "No ads!"
+msgstr "Без реклами!"
+
+#: admin/class-premium-upsell-admin-block.php:58 js/dist/new-settings.js:306
+msgid "Increase your SEO reach"
+msgstr "Підвищіть ваш SEO рівень"
+
+#: admin/class-admin.php:345
+msgid "Scroll to see the table content."
+msgstr "Розгорніть, щоб побачити вміст таблиці."
+
+#: admin/class-bulk-editor-list-table.php:892
+msgid "Save all"
+msgstr "Зберегти все"
+
+#: admin/class-bulk-editor-list-table.php:891
+msgid "Save"
+msgstr "Зберегти"
+
+#: admin/views/partial-notifications-warnings.php:22
+msgid "No new notifications."
+msgstr "Немає нових сповіщень."
+
+#. translators: 1: Author name; 2: Site name.
+#: inc/options/class-wpseo-option-titles.php:255
+msgid "%1$s, Author at %2$s"
+msgstr "%1$s, автор у %2$s"
+
+#: admin/formatter/class-metabox-formatter.php:242
+#: js/dist/externals/analysis.js:332 js/dist/externals/analysisReport.js:17
+msgid "Marks are disabled in current view"
+msgstr "Знаки відключені в поточному перегляді"
+
+#: inc/class-wpseo-replace-vars.php:1515 js/dist/first-time-configuration.js:6
+msgid "Name"
+msgstr "Ім'я"
+
+#: admin/views/tool-import-export.php:89
+msgid "Export settings"
+msgstr "Налаштування експорту"
+
+#. translators: %1$s is a link start tag to the bugreport guidelines on the
+#. Yoast help center, %2$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:162
+msgid "If you are experiencing issues, %1$splease file a bug report%2$s and we'll do our best to help you out."
+msgstr "Якщо у вас виникли проблеми, файл %1$s спален файл звіту про помилку %2$s, і ми докладемо всіх зусиль, щоб допомогти вам."
+
+#. translators: %1$s expands to Yoast SEO, %2$s is a link start tag to the
+#. plugin page on WordPress.org, %3$s is the link closing tag.
+#: admin/class-product-upsell-notice.php:154
+msgid "We've noticed you've been using %1$s for some time now; we hope you love it! We'd be thrilled if you could %2$sgive us a 5 stars rating on WordPress.org%3$s!"
+msgstr "Ми помітили, що ви використовуєте %1$s протягом деякого часу; ми сподіваємося, що ви це любите! Ми будемо в захваті, якщо %2$s зможете оцінити 5 зірок на сайті WordPress.org%3$s!"
+
+#: admin/class-product-upsell-notice.php:169
+msgid "Please don't show me this notification anymore"
+msgstr "Не показуйте мені більше це повідомлення"
+
+#. translators: %1$s: '%%term_title%%' variable used in titles and meta's
+#. template that's not compatible with the given template, %2$s: expands to
+#. 'HelpScout beacon'
+#: admin/class-admin.php:339
+msgid "Warning: the variable %1$s cannot be used in this template. See the %2$s for more info."
+msgstr "Попередження: змінна %1$s не може бути використана в цьому шаблоні. Перегляньте %2$s для отримання додаткової інформації."
+
+#: admin/class-bulk-editor-list-table.php:799
+msgid "(no title)"
+msgstr "(без назви)"
+
+#. translators: %1$s expands anchor to premium plugin page, %2$s expands to
+#. </a>
+#: admin/class-product-upsell-notice.php:137
+msgid "By the way, did you know we also have a %1$sPremium plugin%2$s? It offers advanced features, like a redirect manager and support for multiple keyphrases. It also comes with 24/7 personal support."
+msgstr "До речі, ви знали, що у нас також є %1$sPremium плагін%2$s? Він пропонує такі розширені функції, такі як менеджер переадресації та підтримка кількох ключових фраз. Також він включає в себе цілодобову персональну підтримку."
+
+#. translators: 1: Yoast SEO
+#: admin/views/class-yoast-feature-toggles.php:150
+msgid "The %1$s admin bar menu contains useful links to third-party tools for analyzing pages and makes it easy to see if you have new notifications."
+msgstr "Меню адміністрування панелі керування %1$s містить корисні посилання на сторонні інструменти для аналізу сторінок та полегшує перевірку наявності нових сповіщень."
+
+#: admin/views/class-yoast-feature-toggles.php:147 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288 js/dist/new-settings.js:289
+msgid "Admin bar menu"
+msgstr "Меню в панелі адміністратора"
+
+#: admin/pages/network.php:19 admin/views/tabs/network/features.php:22
+msgid "Features"
+msgstr "Можливості"
+
+#: admin/metabox/class-metabox.php:171 js/dist/externals/analysis.js:118
+#: js/dist/externals/analysis.js:240 js/dist/externals/analysis.js:332
+#: js/dist/externals/replacementVariableEditor.js:83
+#: js/dist/externals/searchMetadataPreviews.js:270 js/dist/new-settings.js:23
+#: js/dist/new-settings.js:25 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:55
+#: js/dist/new-settings.js:66 js/dist/new-settings.js:94
+#: js/dist/new-settings.js:117 js/dist/new-settings.js:179
+#: js/dist/new-settings.js:193 js/dist/new-settings.js:203
+#: js/dist/new-settings.js:222
+msgid "SEO title"
+msgstr "SEO-заголовок"
+
+#: admin/views/licenses.php:183
+msgid "Gain access to our 24/7 support team"
+msgstr "Отримайте доступ до нашої цілодобової команди підтримки"
+
+#: inc/options/class-wpseo-option-titles.php:964
+msgid "Dash"
+msgstr "Тире"
+
+#: inc/options/class-wpseo-option-titles.php:1016
+msgid "Greater than sign"
+msgstr "Більше, ніж знак"
+
+#: inc/options/class-wpseo-option-titles.php:1012
+msgid "Less than sign"
+msgstr "Знак менше"
+
+#: inc/options/class-wpseo-option-titles.php:988
+msgid "Asterisk"
+msgstr "Зірочка"
+
+#: inc/options/class-wpseo-option-titles.php:984
+msgid "Bullet"
+msgstr "Маркер"
+
+#: inc/options/class-wpseo-option-titles.php:980
+msgid "Middle dot"
+msgstr "Середня точка"
+
+#: inc/options/class-wpseo-option-titles.php:972
+msgid "Em dash"
+msgstr "Довге тире"
+
+#: inc/options/class-wpseo-option-titles.php:968
+msgid "En dash"
+msgstr "Коротке тире"
+
+#: admin/metabox/class-metabox.php:182 admin/metabox/class-metabox.php:187
+#: js/dist/block-editor.js:224 js/dist/classic-editor.js:220
+#: js/dist/elementor.js:238
+msgid "No"
+msgstr "Ні"
+
+#: admin/metabox/class-metabox.php:181 admin/metabox/class-metabox.php:186
+#: js/dist/block-editor.js:224 js/dist/classic-editor.js:220
+#: js/dist/elementor.js:238
+msgid "Yes"
+msgstr "Так"
+
+#: inc/options/class-wpseo-option-titles.php:1000
+msgid "Small tilde"
+msgstr "Мала тильда"
+
+#: inc/options/class-wpseo-option-titles.php:1008
+msgid "Right angle quotation mark"
+msgstr "Знак котирування правого кута"
+
+#: inc/options/class-wpseo-option-titles.php:1004
+msgid "Left angle quotation mark"
+msgstr "Лівий кутовий лапки"
+
+#: inc/options/class-wpseo-option-titles.php:996
+msgid "Vertical bar"
+msgstr "Вертикальний стрижень"
+
+#: inc/options/class-wpseo-option-titles.php:992
+msgid "Low asterisk"
+msgstr "Низька зірочка"
+
+#: admin/views/tool-bulk-editor.php:63
+msgid "Posts list"
+msgstr "Список записів"
+
+#: admin/views/tool-bulk-editor.php:62
+msgid "Posts list navigation"
+msgstr "Навігація по списку записів"
+
+#: admin/views/licenses.php:188 admin/views/licenses.php:298
+msgid "Installed"
+msgstr "Встановлено"
+
+#: admin/views/licenses.php:182
+msgid "Premium support"
+msgstr "Преміум підтримка"
+
+#. translators: Text between 1: and 2: will only be shown to screen readers. 3:
+#. expands to the product name.
+#. translators: Text between 1: and 2: will only be shown to screen readers. 3:
+#. expands to the product name, e.g. "News SEO" or "all the Yoast Plugins"
+#: admin/views/licenses.php:241 admin/views/licenses.php:351
+msgid "More information %1$sabout %3$s%2$s"
+msgstr "Докладніше %1$sabout %3$s%2$s"
+
+#: admin/views/licenses.php:63
+msgid "Optimize your site for Google News"
+msgstr "Оптимизация сайта для Google News"
+
+#: admin/views/tool-bulk-editor.php:61
+msgid "Filter posts list"
+msgstr "Фільтрувати список записів"
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to WooCommerce
+#: admin/views/licenses.php:86
+msgid "Seamless integration between %1$s and %2$s"
+msgstr "Безшовна інтеграція між %1$s і %2$s"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:813
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Редагувати &#8220;%s&#8221;"
+
+#: admin/menu/class-base-menu.php:258
+#: src/integrations/admin/menu-badge-integration.php:35 js/dist/academy.js:6
+msgid "Premium"
+msgstr "Преміум"
+
+#: admin/class-admin.php:267
+msgid "Get Premium"
+msgstr "Перейти до Преміум аккаунта"
+
+#: admin/views/user-profile.php:45
+msgid "Disable SEO analysis"
+msgstr "Вимкнути аналіз SEO"
+
+#: admin/views/partial-notifications-warnings.php:20
+#: inc/class-wpseo-admin-bar-menu.php:390
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: admin/views/user-profile.php:48
+msgid "Removes the focus keyphrase section from the metabox and disables all SEO-related suggestions."
+msgstr "Видаляє вкладку ключових слів з метаблоку і відключає всі пов'язані з нею SEO пропозиції."
+
+#. translators: %s: number of notifications
+#: admin/menu/class-admin-menu.php:118 inc/class-wpseo-admin-bar-menu.php:854
+msgid "%s notification"
+msgid_plural "%s notifications"
+msgstr[0] "%s повідомлення"
+msgstr[1] "%s повідомлення"
+msgstr[2] "%s повідомлень"
+
+#: admin/views/js-templates-primary-term.php:28
+msgid "Make primary"
+msgstr "Зробити основним"
+
+#: admin/formatter/class-metabox-formatter.php:70
+#: admin/metabox/class-metabox-section-readability.php:28
+#: inc/class-wpseo-admin-bar-menu.php:251
+msgid "Readability"
+msgstr "Читабельність"
+
+#: admin/formatter/class-metabox-formatter.php:123
+#: admin/formatter/class-metabox-formatter.php:153
+#: admin/formatter/class-metabox-formatter.php:183
+#: admin/statistics/class-statistics-service.php:217
+#: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:176
+#: inc/class-wpseo-rank.php:208 inc/class-wpseo-rank.php:235
+#: js/dist/block-editor.js:1 js/dist/editor-modules.js:1
+#: js/dist/externals-components.js:175 js/dist/externals/analysis.js:332
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Needs improvement"
+msgstr "Можна краще"
+
+#: admin/views/class-yoast-feature-toggles.php:83
+#: js/dist/externals-components.js:94 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:288
+msgid "Readability analysis"
+msgstr "Аналіз читабельності"
+
+#: admin/views/user-profile.php:57
+msgid "Disable readability analysis"
+msgstr "Вимкнути аналіз читабельності"
+
+#: admin/views/user-profile.php:60
+msgid "Removes the readability analysis section from the metabox and disables all readability-related suggestions."
+msgstr "Видаляє вкладку Читабельність з метаблоку і відключає всі пов'язані з нею пропозиції."
+
+#. translators: %1$s is a link start tag to the permalink settings page, %2$s
+#. is the link closing tag.
+#: src/services/health-check/postname-permalink-reports.php:71
+msgid "You can fix this on the %1$sPermalink settings page%2$s."
+msgstr "Ви можете виправити це в %1$sНалаштування постійних посилань%2$s."
+
+#: admin/class-meta-columns.php:241
+msgid "Filter by SEO Score"
+msgstr "Фільтр по SEO оцінці"
+
+#: admin/class-meta-columns.php:157
+msgid "Meta description not set."
+msgstr "Мета опис не вказано."
+
+#: admin/formatter/class-metabox-formatter.php:116
+#: admin/formatter/class-metabox-formatter.php:146
+#: admin/formatter/class-metabox-formatter.php:176 inc/class-wpseo-rank.php:138
+msgid "Not available"
+msgstr "Недоступно"
+
+#: admin/formatter/class-metabox-formatter.php:203
+msgid "Analysis"
+msgstr "Аналіз"
+
+#: admin/views/partial-notifications-errors.php:21
+msgid "We have detected the following issues that affect the SEO of your site."
+msgstr "Ми виявили такі проблеми, що впливають на SEO вашого сайту."
+
+#: admin/views/partial-notifications-errors.php:22
+msgid "Good job! We could detect no serious SEO problems."
+msgstr "Гарна робота! Ми не змогли виявити жодних серйозних SEO проблем."
+
+#: admin/formatter/class-metabox-formatter.php:236
+#: admin/views/partial-notifications-errors.php:20
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Problems"
+msgstr "Проблеми"
+
+#: admin/formatter/class-metabox-formatter.php:237
+#: js/dist/editor-modules.js:154 js/dist/externals-components.js:13
+#: js/dist/externals/analysisReport.js:35
+msgid "Improvements"
+msgstr "Поліпшення"
+
+#: admin/menu/class-admin-menu.php:54 admin/pages/dashboard.php:32
+msgid "Dashboard"
+msgstr "Майстерня"
+
+#: inc/class-wpseo-replace-vars.php:1479
+msgid "Replaced with the primary category of the post/page"
+msgstr "Замінено з основною категорією публікації / сторінки"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:48
+msgid "Existing %1$s Title"
+msgstr "Наявний %1$s заголовок"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-bulk-title-editor-list-table.php:50
+msgid "New %1$s Title"
+msgstr "Новий %1$s заголовок"
+
+#. translators: $s expands to Yoast SEO Premium
+#. translators: %s expands to the product name, e.g. "News SEO" or "all the
+#. Yoast Plugins"
+#. translators: 1: Yoast WooCommerce SEO
+#: admin/views/licenses.php:228 admin/views/licenses.php:337
+#: js/dist/integrations-page.js:15
+msgid "Buy %s"
+msgstr "Придбати %s"
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:294
+msgid "Expected an integer as input."
+msgstr "Очікується ціле число як вхідний."
+
+#: admin/views/redirects.php:32
+#: src/integrations/admin/redirects-page-integration.php:48
+msgid "Redirects"
+msgstr "Редиректи"
+
+#: inc/sitemaps/class-sitemaps-cache-validator.php:111
+msgid "Trying to build the sitemap cache key, but the postfix and prefix combination leaves too little room to do this. You are probably requesting a page that is way out of the expected range."
+msgstr "Спробую побудувати ключ кешу масиву сайту, але комбінація постфікса та префікса залишає замало місця для цього. Ви, напевно, зажадаєте сторінку, яка є виходом з очікуваного діапазону."
+
+#: src/integrations/admin/crawl-settings-integration.php:247
+msgid "Remove"
+msgstr "Видалити"
+
+#: src/integrations/admin/crawl-settings-integration.php:246
+msgid "Keep"
+msgstr "Залишити"
+
+#: admin/taxonomy/class-taxonomy-columns.php:172
+msgid "Term is set to noindex."
+msgstr "Термін переключено в noindex."
+
+#: admin/views/js-templates-primary-term.php:32
+msgid "Primary"
+msgstr "Основний"
+
+#. translators: %s is the taxonomy title. This will be shown to screenreaders
+#: admin/views/js-templates-primary-term.php:38
+msgid "Primary %s"
+msgstr "Основний %s"
+
+#. translators: accessibility text. %1$s expands to the term title, %2$s to the
+#. taxonomy title.
+#: admin/views/js-templates-primary-term.php:18
+msgid "Make %1$s primary %2$s"
+msgstr "Зробити %1$s основним %2$s"
+
+#: admin/pages/network.php:20 admin/views/tabs/network/integrations.php:22
+#: src/integrations/admin/integrations-page.php:80
+#: js/dist/integrations-page.js:65
+msgid "Integrations"
+msgstr "Інтеграції"
+
+#: src/integrations/admin/crawl-settings-integration.php:200
+#: src/presenters/admin/light-switch-presenter.php:120
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: src/integrations/admin/crawl-settings-integration.php:199
+#: src/presenters/admin/light-switch-presenter.php:120
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#. translators: %s: wp_title() function.
+#: inc/class-wpseo-replace-vars.php:1461
+msgid "The separator defined in your theme's %s tag."
+msgstr "Розділювач визначається тегом %s у вашій темі."
+
+#: inc/class-wpseo-rank.php:139
+msgid "No index"
+msgstr "Не індексувати"
+
+#: src/deprecated/admin/ryte/class-ryte.php:137
+msgid "Once Weekly"
+msgstr "Один раз на тиждень"
+
+#: admin/class-meta-columns.php:100
+#: admin/taxonomy/class-taxonomy-columns.php:87
+#: inc/class-wpseo-admin-bar-menu.php:240
+msgid "SEO score"
+msgstr "Оцінка SEO"
+
+#. Description of the plugin
+msgid "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more."
+msgstr "Перше SEO-рішення для WordPress, що є справжнім все-в-одному пакетом, який містить вбудований аналіз вмісту, XML-мапи сайту і багато іншого."
+
+#. Author of the plugin
+msgid "Team Yoast"
+msgstr "Команда Yoast"
+
+#: admin/formatter/class-metabox-formatter.php:137
+#: admin/formatter/class-metabox-formatter.php:167
+#: admin/formatter/class-metabox-formatter.php:197
+#: admin/statistics/class-statistics-service.php:227
+#: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:186
+#: inc/class-wpseo-rank.php:218 inc/class-wpseo-rank.php:245
+#: js/dist/block-editor.js:1 js/dist/editor-modules.js:1
+#: js/dist/externals-components.js:175 js/dist/externals/analysis.js:332
+#: js/dist/frontend-inspector-resources.js:1 js/dist/post-edit.js:1
+#: js/dist/term-edit.js:1
+msgid "Good"
+msgstr "Добре"
+
+#: inc/options/class-wpseo-option-titles.php:262
+msgid "Error 404: Page not found"
+msgstr "Помилка 404: Сторінку не знайдено"
+
+#: inc/options/class-wpseo-option-titles.php:263
+msgid "Archives for"
+msgstr "Архіви для"
+
+#: inc/options/class-wpseo-option-titles.php:265
+msgid "You searched for"
+msgstr "Ви шукали"
+
+#. translators: %s expands to a post type.
+#: inc/options/class-wpseo-option-titles.php:527
+msgid "Please select a valid taxonomy for post type \"%s\""
+msgstr "Будь ласка, виберіть правильну таксономію для типу запису \"%s\""
+
+#. translators: %1$s expands to the option name and %2$sexpands to Yoast SEO
+#: inc/options/class-wpseo-option-ms.php:210
+msgid "%1$s is not a valid choice for who should be allowed access to the %2$s settings. Value reset to the default."
+msgstr "%1$s не вірний вибір для тих, кому дозволений доступ до налаштувань %2$s. Здійснено скидання значення за замовчуванням."
+
+#. translators: %s expands to the search phrase.
+#: inc/options/class-wpseo-option-titles.php:257
+msgid "You searched for %s"
+msgstr "Ви шукали %s"
+
+#. translators: %s expands to the name of a post type (plural).
+#: inc/class-upgrade.php:1375 inc/options/class-wpseo-option-titles.php:292
+msgid "%s Archive"
+msgstr "%s Архів"
+
+#: inc/class-wpseo-admin-bar-menu.php:420
+msgid "Analyze this page"
+msgstr "Аналізувати сторінку"
+
+#. translators: %1$s expands to Yoast SEO, %2$s / %3$s: links to the
+#. installation manual in the Readme for the Yoast SEO code repository on
+#. GitHub
+#: wp-seo-main.php:506
+msgid "The %1$s plugin installation is incomplete. Please refer to %2$sinstallation instructions%3$s."
+msgstr "Встановлення плагіну %1$s є невдалим. Будь ласка, зверніться до %2$sінструкції по встановленню%3$s."
+
+#: wp-seo-main.php:484
+msgid "The Standard PHP Library (SPL) extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "Здається відсутнє розширення стандартної бібліотеки PHP (SPL). Попросіть свого надавача веб-хостингу активувати його."
+
+#: wp-seo-main.php:530
+msgid "The filter extension seem to be unavailable. Please ask your web host to enable it."
+msgstr "Здається відсутнє розширення фільтру. Попросіть свого надавача веб-хостингу активувати його."
+
+#: wp-seo-main.php:541
+msgid "Activation failed:"
+msgstr "Активація невдала:"
+
+#: inc/options/class-wpseo-option-social.php:110
+msgid "Summary with large image"
+msgstr "Короткий вміст з великим зображенням"
+
+#: inc/class-wpseo-admin-bar-menu.php:623
+#: inc/class-wpseo-admin-bar-menu.php:671
+msgid "SEO Settings"
+msgstr "Налаштування SEO"
+
+#: inc/class-wpseo-admin-bar-menu.php:449
+msgid "Mobile-Friendly Test"
+msgstr "Тест на мобільність"
+
+#: inc/class-wpseo-admin-bar-menu.php:444
+msgid "Google Page Speed Test"
+msgstr "Тест швидкості сторінки Google"
+
+#: inc/options/class-wpseo-option-ms.php:245
+msgid "No numeric value was received."
+msgstr "Числові значення не отримано."
+
+#. translators: %s is the ID number of a blog.
+#: inc/options/class-wpseo-option-ms.php:233
+msgid "This must be an existing blog. Blog %s does not exist or has been marked as deleted."
+msgstr "Це повинен бути існуючий блог. Блог %s не існує або позначено як видалений."
+
+#: inc/options/class-wpseo-option-ms.php:229
+#: inc/options/class-wpseo-option-ms.php:245
+msgid "The default blog setting must be the numeric blog id of the blog you want to use as default."
+msgstr "Налаштування блогу за умовчанням має містити ідентифікатор числового блогу блогу, який ви хочете використовувати як за замовчуванням."
+
+#. Plugin Name of the plugin
+#: admin/capabilities/class-capability-manager-integration.php:72
+#: src/presenters/meta-description-presenter.php:36 js/dist/block-editor.js:295
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#. translators: 1: link to post; 2: link to blog.
+#: inc/options/class-wpseo-option-titles.php:260
+msgid "The post %1$s appeared first on %2$s."
+msgstr "Запис %1$s спершу з'явиться на %2$s."
+
+#. translators: %s expands to a twitter user name.
+#: inc/options/class-wpseo-option-social.php:184
+msgid "%s does not seem to be a valid Twitter Username. Please correct."
+msgstr "%s — некоретне ім'я користувача в Twitter. Будь ласка, виправте його."
+
+#. translators: %s expands to a taxonomy slug.
+#: inc/options/class-wpseo-option-titles.php:565
+msgid "Please select a valid post type for taxonomy \"%s\""
+msgstr "Будь ласка, виберіть правильний тип запису для таксономії \"%s\""
+
+#. translators: 1: Verification string from user input; 2: Service name.
+#: inc/options/class-wpseo-option.php:355
+msgid "%1$s does not seem to be a valid %2$s verification string. Please correct."
+msgstr "%1$s, як видається, не є дійсною ланкою підтвердження %2$s. Будь ласка, виправте."
+
+#. translators: %s expands to an invalid URL.
+#: inc/options/class-wpseo-option.php:391
+msgid "%s does not seem to be a valid url. Please correct."
+msgstr "%s, здається, не є дійсним адресою. Будь ласка, виправте."
+
+#: inc/options/class-wpseo-option-titles.php:264
+msgid "Home"
+msgstr "Головна"
+
+#: inc/class-wpseo-admin-bar-menu.php:439
+msgid "Facebook Debugger"
+msgstr "Налагоджувач Facebook"
+
+#: admin/pages/tools.php:42
+msgid "Bulk editor"
+msgstr "Груповий редактор"
+
+#: admin/pages/tools.php:43
+msgid "This tool allows you to quickly change titles and descriptions of your posts and pages without having to go into the editor for each page."
+msgstr "Цей інструмент дозволяє швидко змінювати заголовки та описи ваших повідомлень і сторінок без необхідності входити в редактор для кожної сторінки."
+
+#: admin/pages/tools.php:30
+msgid "Import and Export"
+msgstr "Імпорт та експорт"
+
+#: admin/pages/tools.php:36
+msgid "File editor"
+msgstr "Редактор файлів"
+
+#: admin/pages/tools.php:37
+msgid "This tool allows you to quickly change important files for your SEO, like your robots.txt and, if you have one, your .htaccess file."
+msgstr "Цей інструмент дозволяє швидко змінити важливі файли для вашого SEO, як ваш robots.txt і ваш файл .htaccess, якщо він у вас є."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/pages/tools.php:49
+msgid "%1$s comes with some very powerful built-in tools:"
+msgstr "%1$s розповсюджується з деякими дуже потужними вбудованими інструментами:"
+
+#: admin/pages/tools.php:90
+msgid "&laquo; Back to Tools page"
+msgstr "&laquo; Повернутися до сторінки інструментів"
+
+#: admin/statistics/class-statistics-service.php:80
+msgid "Below are your published posts' SEO scores. Now is as good a time as any to start improving some of your posts!"
+msgstr "Нижче результати оцінювання SEO оптимізації ваших опублікованих записів. Якщо маєте вільну хвильку, то саме час почати покращувати деякі з публікацій!"
+
+#: src/integrations/admin/import-integration.php:117
+msgid "Default settings"
+msgstr "Стандартні параметри"
+
+#: admin/views/tabs/tool/import-seo.php:100
+msgid "Import"
+msgstr "Імпорт"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/tool/wpseo-export.php:15
+msgid "Export your %1$s settings"
+msgstr "Експортувати ваші %1$s налаштування"
+
+#: admin/views/tabs/tool/import-seo.php:18
+#: admin/views/tabs/tool/import-seo.php:49
+#: admin/views/tool-import-export.php:92
+msgid "Import from other SEO plugins"
+msgstr "Імпорт з інших плагінів SEO"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/user-profile.php:11
+msgid "%1$s settings"
+msgstr "%1$s налаштування"
+
+#: admin/views/user-profile.php:24
+msgid "Title to use for Author page"
+msgstr "Заголовок для сторінки автора"
+
+#: admin/views/user-profile.php:28
+msgid "Meta description to use for Author page"
+msgstr "Мета опис для сторінки автора"
+
+#. translators: %s expands to the variable used for term title.
+#: admin/formatter/class-term-metabox-formatter.php:162
+#: inc/class-upgrade.php:1378 inc/options/class-wpseo-option-titles.php:328
+msgid "%s Archives"
+msgstr "%s Архіви"
+
+#: inc/options/class-wpseo-option-titles.php:258
+msgid "Page not found"
+msgstr "Сторінку не знайдено"
+
+#: inc/class-wpseo-replace-vars.php:1469
+msgid "Replaced with the date of the post/page"
+msgstr "Замінено з датою запису/сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1470
+msgid "Replaced with the title of the post/page"
+msgstr "Замінено з заголовком запису/сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1475
+msgid "Replaced with the post/page excerpt (or auto-generated if it does not exist)"
+msgstr "Замінено з уривком запису/сторінки (або автоматично створювати, якщо він не існує)"
+
+#: inc/class-wpseo-replace-vars.php:1476
+msgid "Replaced with the post/page excerpt (without auto-generation)"
+msgstr "Замінено з уривком запису/сторінки (без автоматичного створення)"
+
+#: inc/class-wpseo-replace-vars.php:1477
+msgid "Replaced with the current tag/tags"
+msgstr "Замінено з поточним теґом/теґами"
+
+#: inc/class-wpseo-replace-vars.php:1478
+msgid "Replaced with the post categories (comma separated)"
+msgstr "Замінено з категоріями запису (через кому)"
+
+#: inc/class-wpseo-replace-vars.php:1480
+msgid "Replaced with the category description"
+msgstr "Замінено з описом категорії"
+
+#: inc/class-wpseo-replace-vars.php:1481
+msgid "Replaced with the tag description"
+msgstr "Замінено з описом теґів"
+
+#: inc/class-wpseo-replace-vars.php:1482
+msgid "Replaced with the term description"
+msgstr "Замінено з описом артикулу"
+
+#: inc/class-wpseo-replace-vars.php:1484
+msgid "Replaced with the current search phrase"
+msgstr "Замінено поточною пошуковою фразою"
+
+#: inc/class-wpseo-replace-vars.php:1511
+msgid "Replaced with the content type single label"
+msgstr "Замінено з єдиною міткою типу запису"
+
+#: inc/class-wpseo-replace-vars.php:1512
+msgid "Replaced with the content type plural label"
+msgstr "Замінено з кількома мітками типу запису"
+
+#: inc/class-wpseo-replace-vars.php:1513
+msgid "Replaced with the post/page modified time"
+msgstr "Замінено з часом зміни запису/сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1514
+msgid "Replaced with the post/page ID"
+msgstr "Замінено з ідентифікатором (ID) запису/сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1515
+msgid "Replaced with the post/page author's 'nicename'"
+msgstr "Замінено з &#8220;псевдонімом&#8221; автора запису/сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1516
+msgid "Replaced with the post/page author's 'Biographical Info'"
+msgstr "Замінено з &#8220;біографічною інформацією&#8221; автора запису/сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1473
+msgid "The site's name"
+msgstr "Назва сайту"
+
+#. translators: 1: current page number, 2: total number of pages.
+#: inc/class-wpseo-replace-vars.php:1032
+msgid "Page %1$d of %2$d"
+msgstr "Сторінка %1$d з %2$d"
+
+#: inc/class-wpseo-replace-vars.php:1525
+msgid "Replaced with a custom taxonomies description"
+msgstr "Замінено опис користувацьких таксономій"
+
+#: inc/class-wpseo-replace-vars.php:1524
+msgid "Replaced with a posts custom taxonomies, comma separated."
+msgstr "Замінений з повідомленням користувацький таксономії, розділений комами."
+
+#: inc/class-wpseo-replace-vars.php:1523
+msgid "Replaced with a posts custom field value"
+msgstr "Замінено значення спеціального поля для публікацій"
+
+#: inc/class-wpseo-replace-vars.php:1522
+msgid "Replaced with the slug which caused the 404"
+msgstr "Замінено з тілом, який викликав 404"
+
+#: inc/class-wpseo-replace-vars.php:1520
+msgid "Attachment caption"
+msgstr "Вкладення підписів"
+
+#: inc/class-wpseo-replace-vars.php:1519
+msgid "Replaced with the current page number"
+msgstr "Замінено поточним номером сторінки"
+
+#: inc/class-wpseo-replace-vars.php:1518
+msgid "Replaced with the current page total"
+msgstr "Замінено поточною загальною сторінкою"
+
+#: inc/class-wpseo-replace-vars.php:1517
+msgid "Replaced with the current page number with context (i.e. page 2 of 4)"
+msgstr "Замінено поточним номером сторінки з контекстом (тобто сторінка 2 з 4)"
+
+#: inc/class-wpseo-replace-vars.php:1471
+msgid "Replaced with the title of the parent page of the current page"
+msgstr "Замінено заголовком батьківської сторінки поточної сторінки"
+
+#: inc/class-wpseo-replace-vars.php:122
+msgid "You cannot overrule a WPSEO standard variable replacement by registering a variable with the same name. Use the \"wpseo_replacements\" filter instead to adjust the replacement value."
+msgstr "Ви не можете скасувати стандартну зміну WPSEO шляхом реєстрації змінної з таким самим ім'ям. Замість цього використовуйте фільтр \"wpseo_replacements\", щоб налаштувати значення заміни."
+
+#: inc/class-wpseo-replace-vars.php:118
+msgid "A replacement variable with the same name has already been registered. Try making your variable name unique."
+msgstr "Змінна змінна з тією ж назвою вже зареєстрована. Спробуйте зробити назву змінної унікальною."
+
+#: inc/class-wpseo-replace-vars.php:108
+msgid "A replacement variable can not start with \"%%cf_\" or \"%%ct_\" as these are reserved for the WPSEO standard variable variables for custom fields and custom taxonomies. Try making your variable name unique."
+msgstr "Змінна змінна не може починатися з \"%%cf_\" або \"%%ct_\", оскільки вони зарезервовані для стандартних змінних WPSEO для спеціальних полів та спеціальних таксономій. Спробуйте зробити назву змінної унікальною."
+
+#: inc/class-wpseo-replace-vars.php:105
+msgid "A replacement variable can only contain alphanumeric characters, an underscore or a dash. Try renaming your variable."
+msgstr "Змінні заміни можуть містити лише буквено-цифрові символи, підкреслення або дефіс. Спробуйте перейменувати вашу змінну."
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Replaced with the posts focus keyphrase"
+msgstr "Замінюється фокусним ключовим словом запису"
+
+#. translators: %s expands to robots.txt.
+#: admin/views/tool-file-editor.php:116
+msgid "You don't have a %s file, create one here:"
+msgstr "На сайті відсутній файл %s, створіть його зараз:"
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:135 admin/views/tool-file-editor.php:235
+msgid "If you had a %s file and it was editable, you could edit it from here."
+msgstr "Якби у вас був файл %s, доступний для запису, тут можна було б його змінити."
+
+#. translators: %s expands to robots.txt.
+#. translators: %s expands to ".htaccess".
+#: admin/views/tool-file-editor.php:153 admin/views/tool-file-editor.php:203
+msgid "If your %s were writable, you could edit it from here."
+msgstr "Якщо ваш файл %s доступний для запису, ви можете відредагувати його тут."
+
+#. translators: %1$s resolves to Yoast SEO, %2$s resolves to the Settings
+#. submenu item.
+#: src/presenters/meta-description-presenter.php:35
+msgid "Admin only notice: this page does not show a meta description because it does not have one, either write it for this page specifically or go into the [%1$s - %2$s] menu and set up a template."
+msgstr "Замітка для адміністратора: на цій сторінці не відображається мета-опис, тому що він не заданий. Вкажіть його для даної сторінки, або перейдіть в меню [%1$s - %2$s] і налаштуйте шаблон."
+
+#: admin/views/tool-bulk-editor.php:111 js/dist/new-settings.js:224
+msgid "Description"
+msgstr "Опис"
+
+#: inc/class-wpseo-replace-vars.php:1488
+msgid "Replaced with the current year"
+msgstr "Замінено поточним роком"
+
+#: inc/class-wpseo-replace-vars.php:1489
+msgid "Replaced with the current month"
+msgstr "Замінено поточним місяцем"
+
+#: inc/class-wpseo-replace-vars.php:1490
+msgid "Replaced with the current day"
+msgstr "Замінено поточним днем"
+
+#: inc/class-wpseo-replace-vars.php:1487
+msgid "Replaced with the current date"
+msgstr "Замінено сьогоднішньою датою"
+
+#: admin/pages/tools.php:31
+msgid "Import settings from other SEO plugins and export your settings for re-use on (another) site."
+msgstr "Імпорт налаштувань з інших плагінів SEO і експорт ваших налаштувань для повторного використання в (іншому) блозі."
+
+#: inc/class-wpseo-replace-vars.php:1483
+msgid "Replaced with the term name"
+msgstr "Замінено з іменем артикулу"
+
+#: admin/views/tabs/dashboard/dashboard.php:40
+msgid "Credits"
+msgstr "Подяки"
+
+#: admin/class-export.php:61 admin/views/tabs/tool/wpseo-import.php:25
+#: admin/views/tabs/tool/wpseo-import.php:45
+#: admin/views/tool-import-export.php:86
+msgid "Import settings"
+msgstr "Налаштування імпорту"
+
+#. Translators: %s: expands to Yoast SEO Premium
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:15
+msgid "Creating redirects is a %s feature"
+msgstr "Створення перенаправлення це функція %s"
+
+#. Translators: %1$s: expands to 'Yoast SEO Premium', %2$s: links to Yoast SEO
+#. Premium plugin page.
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:22
+msgid "To be able to create a redirect and fix this issue, you need %1$s. You can buy the plugin, including one year of support and updates, on %2$s."
+msgstr "Щоб мати можливість створити перенаправлення і виправити дану проблему, потрібен %1$s. Ви можете купити плагін, включаючи один рік підтримки та оновлень, на %2$s."
+
+#: vendor_prefixed/wordproof/wordpress-sdk/app/Translations/DefaultTranslations.php:43
+msgid "Authenticate"
+msgstr "Аутентифікувати"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/views/licenses.php:122
+msgid "%1$s Extensions"
+msgstr "%1$s Розширення"
+
+#: admin/views/tabs/network/general.php:37
+#: admin/views/tabs/network/general.php:43
+msgid "New sites in the network inherit their SEO settings from this site"
+msgstr "Нові сайти в мережі успадковують параметри SEO з цього сайту"
+
+#: admin/views/tabs/network/general.php:40
+msgid "Choose the site whose settings you want to use as default for all sites that are added to your network. If you choose 'None', the normal plugin defaults will be used."
+msgstr "Виберіть сайт, налаштування якого ви хочете використовувати за замовчуванням для всіх сайтів, які додаються до мережі. Якщо ви оберете \"Жоден\", плагін працюватиме з стандартними параметрами."
+
+#: admin/views/tabs/network/general.php:54
+msgid "Take note:"
+msgstr "Зверніть увагу:"
+
+#: admin/views/tabs/network/restore-site.php:16
+msgid "Using this form you can reset a site to the default SEO settings."
+msgstr "Використовуючи цю форму ви можете відновити стандартні SEO налаштування."
+
+#. translators: %s expands to the name of a site within a multisite network.
+#: admin/class-yoast-network-admin.php:174
+msgid "%s restored to default SEO settings."
+msgstr "%s відновлено стандартні SEO налаштування."
+
+#: admin/class-yoast-network-admin.php:80
+msgid "spam"
+msgstr "спам"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/views/tabs/network/general.php:25
+msgid "Who should have access to the %1$s settings"
+msgstr "Хто має права доступу до %1$s налаштувань"
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:38 admin/views/licenses.php:22
+msgid "The premium version of %1$s with more features & support."
+msgstr "Преміум версія %1$s з більшою кількістю можливостей і підтримкою."
+
+#: admin/views/tabs/network/restore-site.php:32
+msgid "Restore site to defaults"
+msgstr "Відновити сайт за замовчуванням"
+
+#: admin/views/tabs/network/restore-site.php:23
+#: admin/views/tabs/network/restore-site.php:28
+msgid "Site ID"
+msgstr "ID сайту"
+
+#: admin/class-yoast-network-admin.php:79
+msgid "mature"
+msgstr "для дорослих"
+
+#: admin/class-yoast-network-admin.php:78
+msgid "archived"
+msgstr "в архіві"
+
+#: admin/class-yoast-network-admin.php:77
+msgid "public"
+msgstr "публічний"
+
+#: admin/class-yoast-network-admin.php:140
+msgid "Settings Updated."
+msgstr "Налаштування оновлені."
+
+#. translators: %1$s expands to Yoast SEO
+#: admin/class-plugin-availability.php:82 admin/views/licenses.php:79
+msgid "Seamlessly integrate WooCommerce with %1$s and get extra features!"
+msgstr "Постійно інтегруйте WooCommerce з %1$s та отримуйте додаткові функції!"
+
+#: admin/class-plugin-availability.php:70 admin/views/licenses.php:32
+msgid "Rank better locally and in Google Maps, without breaking a sweat!"
+msgstr "Ранг краще локально та на Картах Google, не порушуючи поту!"
+
+#: admin/class-plugin-availability.php:60 admin/views/licenses.php:60
+msgid "Are you in Google News? Increase your traffic from Google News by optimizing for it!"
+msgstr "Ви в Новинах Google? Збільште трафік з Новин Google, оптимізуючи його!"
+
+#: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1470
+#: js/dist/externals-redux.js:1
+msgid "Title"
+msgstr "Заголовок"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/network/general.php:47
+msgid "Enter the %1$sSite ID%2$s for the site whose settings you want to use as default for all sites that are added to your network. Leave empty for none (i.e. the normal plugin defaults will be used)."
+msgstr "Вкажіть %1$sSite ID%2$s, параметри якого ви хочете використовувати за замовчуванням для всіх сайтів мережі. Якщо залишити поле порожнім, будуть використовуватися стандартні налаштування плагіну."
+
+#: admin/views/tabs/network/general.php:27
+msgid "Site Admins (default)"
+msgstr "Адміністратори сайту (за замовчуванням)"
+
+#: admin/views/tabs/network/general.php:28
+msgid "Super Admins only"
+msgstr "Тільки супер-адміністратори"
+
+#: admin/views/redirects.php:175 admin/views/redirects.php:222
+msgid "New URL"
+msgstr "Новий URL"
+
+#: inc/class-wpseo-replace-vars.php:1496
+msgid "Permalink"
+msgstr "Постійне посилання"
+
+#: admin/class-plugin-availability.php:50 admin/views/licenses.php:46
+msgid "Optimize your videos to show them off in search results and get more clicks!"
+msgstr "Оптимізуйте свої відео, щоб показати їх у результатах пошуку і отримати більше кліків!"
+
+#: admin/views/redirects.php:112
+msgid "URL"
+msgstr "URL-адреса"
+
+#: src/integrations/admin/first-time-configuration-integration.php:481
+#: js/dist/new-settings.js:292
+msgid "Person"
+msgstr "Приватна особа"
+
+#: admin/views/tabs/network/general.php:54
+msgid "Privacy sensitive (FB admins and such), theme specific (title rewrite) and a few very site specific settings will not be imported to new sites."
+msgstr "Таємні дані (адміни FB, тощо), особливості теми (перепис назв) і кілька конкретних налаштувань сайту не будуть імпортовані до нових блогів."
+
+#: admin/google_search_console/views/gsc-redirect-nopremium.php:27
+#: js/dist/elementor.js:97 js/dist/externals-components.js:140
+#: js/dist/externals/componentsNew.js:136 js/dist/introductions.js:9
+#: js/dist/new-settings.js:9 js/dist/new-settings.js:15
+#: js/dist/new-settings.js:36 js/dist/post-edit.js:9 js/dist/support.js:27
+msgid "Close"
+msgstr "Закрити"
+
+#: admin/class-meta-columns.php:245
+msgid "All SEO Scores"
+msgstr "Всі SEO оцінки"
+
+#: admin/class-meta-columns.php:108
+msgid "Meta Desc."
+msgstr "Мета опис"
+
+#: admin/class-yoast-form.php:741 admin/metabox/class-metabox.php:650
+#: admin/taxonomy/class-taxonomy-fields-presenter.php:127
+msgid "Upload Image"
+msgstr "Завантажити зображення"
+
+#. translators: %1$s: 'Facebook & Open Graph' plugin name(s) of possibly
+#. conflicting plugin(s), %2$s to Yoast SEO
+#: admin/class-yoast-plugin-conflict.php:178
+msgid "The %1$s plugin might cause issues when used in conjunction with %2$s."
+msgstr "%1$s плагін(и) можуть викликати проблеми при сумісному використанні з %2$s."
+
+#: admin/metabox/class-metabox.php:947
+#: src/integrations/third-party/elementor.php:467
+msgid "SEO issue: The featured image should be at least 200 by 200 pixels to be picked up by Facebook and other social media sites."
+msgstr "Зображення повинно бути принаймні 200x200 пікселів , щоб Facebook та інші соціальні мережі мали змогу його використати."
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Google XML Sitemaps' plugin
+#. name of possibly conflicting plugin with regard to the creation of sitemaps.
+#: admin/class-plugin-conflict.php:76
+msgid "Both %1$s and %2$s can create XML sitemaps. Having two XML sitemaps is not beneficial for search engines and might slow down your site."
+msgstr "%1$s і %2$s одночасно генерують XML мапи сайту. Наявність двох XML мап сайту не є корисним для пошукових систем, а також може сповільнити ваш сайт."
+
+#. translators: %s: 'Facebook' plugin name of possibly conflicting plugin
+#: admin/class-yoast-plugin-conflict.php:182
+msgid "Deactivate %s"
+msgstr "Деактивувати %s"
+
+#: admin/formatter/class-metabox-formatter.php:130
+#: admin/formatter/class-metabox-formatter.php:160
+#: admin/statistics/class-statistics-service.php:222
+#: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:181
+#: inc/class-wpseo-rank.php:213 js/dist/block-editor.js:1
+#: js/dist/editor-modules.js:1 js/dist/externals-components.js:175
+#: js/dist/externals/analysis.js:332 js/dist/frontend-inspector-resources.js:1
+#: js/dist/post-edit.js:1 js/dist/term-edit.js:1
+msgid "OK"
+msgstr "OK"
+
+#. translators: %1$s expands to Yoast SEO.
+#: admin/class-plugin-conflict.php:69
+msgid "Configure %1$s's Open Graph settings"
+msgstr "Налаштувати %1$s Open Graph"
+
+#. translators: %1$s expands to Yoast SEO, %2$s: 'Facebook' plugin name of
+#. possibly conflicting plugin with regard to creating OpenGraph output.
+#: admin/class-plugin-conflict.php:65
+msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, Twitter, LinkedIn and other social networks use the wrong texts and images when your pages are being shared."
+msgstr "І %1$s і %2$s створюють висновок Open Graph, який може привести до використання неправильних текстів та зображень соціальними мережами (Facebook, Twitter, LinkedIn та ін.), коли вашими сторінками поділяться в них."
+
+#. translators: %s is the plugin name
+#: admin/class-yoast-dashboard-widget.php:75
+msgid "%s Posts Overview"
+msgstr "Огляд публікацій %s"
+
+#: src/deprecated/src/integrations/admin/social-templates-integration.php:219
+msgid "Social settings"
+msgstr "Налаштування соцмереж"
+
+#: admin/class-admin.php:226 admin/views/redirects.php:42
+#: src/integrations/settings-integration.php:312
+#: src/presenters/meta-description-presenter.php:37
+#: js/dist/structured-data-blocks.js:9
+msgid "Settings"
+msgstr "Налаштування"
+
+#: admin/class-bulk-editor-list-table.php:814
+#: js/dist/first-time-configuration.js:18
+#: js/dist/first-time-configuration.js:20 js/dist/installation-success.js:13
+msgid "Edit"
+msgstr "Редагувати"
+
+#: admin/class-bulk-editor-list-table.php:420 admin/views/redirects.php:141
+msgid "Filter"
+msgstr "Фільтр"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:825
+msgid "Preview &#8220;%s&#8221;"
+msgstr "Попередній перегляд &#8220;%s&#8221;"
+
+#: admin/menu/class-network-admin-menu.php:66
+msgid "Extensions"
+msgstr "Розширення"
+
+#: admin/ajax.php:150
+msgid "Post doesn't exist."
+msgstr "Запис не існує."
+
+#. translators: %s expands to post type.
+#: admin/ajax.php:161
+msgid "Post has an invalid Content Type: %s."
+msgstr "Запис має невірний Тип Запису: %s."
+
+#. translators: %s expands to post type name.
+#: admin/ajax.php:173
+msgid "You can't edit %s."
+msgstr "Ви не можете редагувати %s."
+
+#. translators: %s expands to the name of a post type (plural).
+#: admin/ajax.php:185
+msgid "You can't edit %s that aren't yours."
+msgstr "Ви не можете редагувати %s, бо це не ваше."
+
+#. translators: %1$s expands to Yoast SEO, %2$s expands to the installed
+#. version, %3$s expands to Gutenberg
+#: admin/class-admin-gutenberg-compatibility-notification.php:88
+msgid "%1$s detected you are using version %2$s of %3$s, please update to the latest version to prevent compatibility issues."
+msgstr "%1$s визначено використання версії %2$s з %3$s. Будь ласка, оновіть до останньої версії, щоб запобігти проблем зі сумісністю."
+
+#: admin/metabox/class-metabox.php:416
+#: admin/taxonomy/class-taxonomy-metabox.php:140
+#: inc/class-wpseo-admin-bar-menu.php:702
+#: src/services/health-check/report-builder.php:168
+#: js/dist/structured-data-blocks.js:13
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/menu/class-network-admin-menu.php:63
+msgid "Edit Files"
+msgstr "Редагувати файли"
+
+#: admin/class-admin.php:184
+msgid "Posts"
+msgstr "Записи"
+
+#: admin/menu/class-admin-menu.php:95 js/dist/new-settings.js:288
+msgid "Tools"
+msgstr "Інструменти"
+
+#: admin/class-admin.php:307
+msgid "Twitter username (without @)"
+msgstr "Ім'я користувача Twitter (без @)"
+
+#: admin/class-admin.php:300
+msgid "Facebook profile URL"
+msgstr "Посилання на профіль у Facebook"
+
+#: admin/class-bulk-description-editor-list-table.php:46
+msgid "Existing Yoast Meta Description"
+msgstr "Існуючий мета-опис Yoast"
+
+#: admin/class-bulk-description-editor-list-table.php:47
+msgid "New Yoast Meta Description"
+msgstr "Новий Yoast мета-опис"
+
+#. translators: %s expands to the number of posts in localized format.
+#: admin/class-bulk-editor-list-table.php:293
+msgctxt "posts"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Всі <span class=\"count\">(%s)</span>"
+msgstr[1] "Всі <span class=\"count\">(%s)</span>"
+msgstr[2] "Всі <span class=\"count\">(%s)</span>"
+
+#. translators: %s expands to the number of trashed posts in localized format.
+#: admin/class-bulk-editor-list-table.php:342
+msgctxt "posts"
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] "Видалені <span class=\"count\">(%s)</span>"
+msgstr[1] "Видалені <span class=\"count\">(%s)</span>"
+msgstr[2] "Видалені <span class=\"count\">(%s)</span>"
+
+#. translators: %s: post title
+#: admin/class-bulk-editor-list-table.php:835
+msgid "View &#8220;%s&#8221;"
+msgstr "Дивитись &#8220;%s&#8221;"
+
+#: admin/class-bulk-editor-list-table.php:1005
+msgid "Publication date"
+msgstr "Дата публікації"
+
+#: admin/class-bulk-editor-list-table.php:1006
+msgid "Page URL/Slug"
+msgstr "Посилання сторінки"
+
+#: admin/class-bulk-editor-list-table.php:1011
+msgid "Action"
+msgstr "Дія"
+
+#: admin/class-config.php:102 admin/metabox/class-metabox.php:919
+#: admin/taxonomy/class-taxonomy.php:176
+#: src/integrations/third-party/elementor.php:443
+msgid "Use Image"
+msgstr "Використати зображення"
+
+#: admin/class-customizer.php:145
+msgid "Anchor text for the homepage:"
+msgstr "Анкорний текст для головної сторінки:"
+
+#: admin/import/class-import-settings.php:117
+msgid "Settings successfully imported."
+msgstr "Налаштування успішно імпортовані."
+
+#: admin/class-meta-columns.php:738
+msgid "Post is set to noindex."
+msgstr "Запис переключено в noindex."
+
+#: admin/metabox/class-metabox.php:214
+msgid "The URL that this page should redirect to."
+msgstr "Лінк цієї сторінки має перенаправлятися також."
+
+#: inc/class-wpseo-replace-vars.php:1521
+msgid "Focus keyword"
+msgstr "Ключовики"
+
+#: admin/metabox/class-metabox.php:177
+msgid "Warning: even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
+msgstr "Увага: навіть якщо ви можете налаштувати мета індекс роботів тут, а весь сайт переключено на noindex в налаштуваннях конфіденційності, то ці параметри не матимуть сили."
+
+#: admin/import/class-import-settings.php:85
+msgid "Settings could not be imported:"
+msgstr "Параметри не можуть бути імпортовані:"
+
+#: src/services/health-check/default-tagline-runner.php:31
+msgid "Just another WordPress site"
+msgstr "Просто ще один сайт на WordPress"
+
+#: admin/ajax.php:194
+msgid "You have used HTML in your value which is not allowed."
+msgstr "У цьому полі не можна використовувати HTML-теги."
+
+#: admin/metabox/class-metabox.php:192 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "No Archive"
+msgstr "Не архівувати"
+
+#: admin/metabox/class-metabox.php:191 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "No Image Index"
+msgstr "Не індексувати зображення"
+
+#: admin/metabox/class-metabox.php:441
+#: admin/taxonomy/class-taxonomy-metabox.php:158 js/dist/new-settings.js:32
+msgid "Social"
+msgstr "Соціальні мережі"
+
+#: admin/metabox/class-metabox.php:189 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "Meta robots advanced"
+msgstr "Meta robots просунуті"
+
+#: admin/metabox/class-metabox.php:889 admin/taxonomy/class-taxonomy.php:161
+#: admin/taxonomy/class-taxonomy.php:291
+#: src/integrations/third-party/elementor.php:417
+msgid "(no parent)"
+msgstr "(без предка)"
+
+#: admin/metabox/class-metabox.php:213
+msgid "301 Redirect"
+msgstr "301 Перенаправлення"
+
+#: admin/class-customizer.php:181
+msgid "Prefix for search result pages:"
+msgstr "Префікс для сторінки результатів пошуку:"
+
+#: admin/class-customizer.php:169
+msgid "Prefix for archive pages:"
+msgstr "Префікс для сторінок архівів:"
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/metabox/class-metabox.php:202
+msgid "The canonical URL that this page should point to. Leave empty to default to permalink. %1$sCross domain canonical%2$s supported too."
+msgstr "Канонічний URL, на який повинна вказувати ця сторінка. Якщо залишити порожнім, це буде посилання за замовчуванням. Також підтримуються %1$sпосилання на інші домени%2$s."
+
+#: src/presenters/admin/search-engines-discouraged-presenter.php:33
+msgid "Huge SEO Issue: You're blocking access to robots."
+msgstr "Серйозна проблема для SEO: Ви блокуєте доступ для пошукових роботів."
+
+#: admin/class-bulk-editor-list-table.php:1002
+msgid "WP Page Title"
+msgstr "Заголовок сторінки WP"
+
+#: admin/class-bulk-editor-list-table.php:1004
+msgid "Post Status"
+msgstr "Статус запису"
+
+#: admin/metabox/class-metabox.php:172 js/dist/externals/analysis.js:332
+#: js/dist/externals/replacementVariableEditor.js:83
+#: js/dist/externals/searchMetadataPreviews.js:270 js/dist/new-settings.js:23
+#: js/dist/new-settings.js:25 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:32 js/dist/new-settings.js:55
+#: js/dist/new-settings.js:66 js/dist/new-settings.js:94
+#: js/dist/new-settings.js:117 js/dist/new-settings.js:179
+#: js/dist/new-settings.js:193 js/dist/new-settings.js:203
+#: js/dist/new-settings.js:222
+msgid "Meta description"
+msgstr "Мета-опис"
+
+#: admin/views/class-yoast-feature-toggles.php:136 js/dist/new-settings.js:28
+#: js/dist/new-settings.js:289 js/dist/new-settings.js:290
+msgid "XML sitemaps"
+msgstr "XML Карта сайту"
+
+#: admin/menu/class-admin-menu.php:89
+#: admin/menu/class-network-admin-menu.php:56 admin/pages/network.php:18
+#: js/dist/new-settings.js:304
+msgid "General"
+msgstr "Загальне"
+
+#: admin/metabox/class-metabox.php:198 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "Canonical URL"
+msgstr "Канонічний URL"
+
+#: admin/menu/class-admin-menu.php:91
+msgid "Search Console"
+msgstr "Search Console"
+
+#: admin/class-admin.php:231 js/dist/structured-data-blocks.js:13
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-bulk-editor-list-table.php:826
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: admin/class-bulk-editor-list-table.php:836 js/dist/block-editor.js:93
+#: js/dist/classic-editor.js:89 js/dist/editor-modules.js:51
+#: js/dist/elementor.js:107 js/dist/wincher-dashboard-widget.js:1
+#: js/dist/wincher-dashboard-widget.js:76
+msgid "View"
+msgstr "Дивитися"
+
+#: admin/class-meta-columns.php:107
+msgid "SEO Title"
+msgstr "SEO-заголовок"
+
+#: admin/metabox/class-metabox.php:193 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "No Snippet"
+msgstr "Без сніппету"
+
+#. translators: %s is the name of the plugin
+#: admin/class-customizer.php:86
+msgid "%s Breadcrumbs"
+msgstr "%s навігаційні стежки"
+
+#: admin/class-customizer.php:132
+msgid "Breadcrumbs separator:"
+msgstr "Розділювач для навігаційних стежок (breadcrumbs):"
+
+#: admin/class-customizer.php:157
+msgid "Prefix for breadcrumbs:"
+msgstr "Префікс для навігаційних стежок:"
+
+#: admin/class-customizer.php:193
+msgid "Breadcrumb for 404 pages:"
+msgstr "Навігаційна стежка для сторінки помилки 404:"
+
+#: admin/metabox/class-metabox.php:195 js/dist/block-editor.js:232
+#: js/dist/classic-editor.js:228 js/dist/elementor.js:246
+msgid "Breadcrumbs Title"
+msgstr "Заголовок для навігаційних стежок"
+
+#: admin/metabox/class-metabox.php:196
+msgid "Title to use for this page in breadcrumb paths"
+msgstr "Назва для цієї сторінки щоб використовувати в навігаційній стежкі"
+
+#: admin/class-yoast-network-admin.php:43 src/config/schema-types.php:163
+#: src/integrations/settings-integration.php:546 js/dist/new-settings.js:15
+#: js/dist/new-settings.js:308
+msgid "None"
+msgstr "Ні куди"

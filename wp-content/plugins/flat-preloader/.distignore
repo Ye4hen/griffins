@@ -1,0 +1,10 @@
+/.git
+/.github
+/.editorconfig
+/.wordpress-org
+
+composer.json
+composer.lock
+.prettierrc.js
+phpcs.xml
+README.md

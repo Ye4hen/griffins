@@ -1,0 +1,14 @@
+<br />
+<b>Warning</b>:  Attempt to read property "robotsMeta" on null in <b>C:\xampp\htdocs\wordpress3\wp-content\plugins\all-in-one-seo-pack\app\Common\Sitemap\Helpers.php</b> on line <b>234</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "default" on null in <b>C:\xampp\htdocs\wordpress3\wp-content\plugins\all-in-one-seo-pack\app\Common\Sitemap\Helpers.php</b> on line <b>234</b><br />
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was динамічно generated on 17.09.2023 at 06:54 by All in One SEO v4.4.5.1 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="https://ye4hen.github.io/griffins/default-sitemap.xsl?sitemap=attachment"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+</urlset>

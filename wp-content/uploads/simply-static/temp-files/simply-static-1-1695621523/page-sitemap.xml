@@ -1,0 +1,35 @@
+<br />
+<b>Warning</b>:  Attempt to read property "robotsMeta" on null in <b>C:\xampp\htdocs\wordpress3\wp-content\plugins\all-in-one-seo-pack\app\Common\Sitemap\Helpers.php</b> on line <b>234</b><br />
+<br />
+<b>Warning</b>:  Attempt to read property "default" on null in <b>C:\xampp\htdocs\wordpress3\wp-content\plugins\all-in-one-seo-pack\app\Common\Sitemap\Helpers.php</b> on line <b>234</b><br />
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was динамічно generated on 17.09.2023 at 06:54 by All in One SEO v4.4.5.1 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="https://ye4hen.github.io/griffins/default-sitemap.xsl?sitemap=page"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+	<url>
+		<loc><![CDATA[https://ye4hen.github.io/griffins/]]></loc>
+		<lastmod><![CDATA[2023-09-10T09:07:55+00:00]]></lastmod>
+		<changefreq><![CDATA[always]]></changefreq>
+		<priority><![CDATA[1]]></priority>
+		<image:image>
+			<image:loc><![CDATA[https://ye4hen.github.io/griffins/wp-content/uploads/2023/09/family_guy.jpg]]></image:loc>
+		</image:image>
+		<image:image>
+			<image:loc><![CDATA[https://ye4hen.github.io/griffins/wp-content/uploads/2023/09/images-1.jpg]]></image:loc>
+		</image:image>
+		<image:image>
+			<image:loc><![CDATA[https://ye4hen.github.io/griffins/wp-content/uploads/2023/09/are-seasons-1-20-of-family-guy-on-netflix-1.jpg]]></image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc><![CDATA[https://ye4hen.github.io/griffins/privacy-policy/]]></loc>
+		<lastmod><![CDATA[2023-09-08T09:43:02+00:00]]></lastmod>
+		<changefreq><![CDATA[weekly]]></changefreq>
+		<priority><![CDATA[0.7]]></priority>
+	</url>
+</urlset>

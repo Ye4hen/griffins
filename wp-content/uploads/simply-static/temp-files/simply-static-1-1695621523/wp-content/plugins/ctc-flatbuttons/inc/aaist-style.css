@@ -1,0 +1,185 @@
+.ctc-zad.show{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 1;
+}
+@keyframes pop-in {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes pop-out {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+.speed-dial {
+    z-index: 200;
+    position: fixed;
+}
+
+.speed-dial .toggle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 8px 0;
+    position: fixed;
+    bottom: 20px;
+}
+
+.speed-dial .dials.clozed{
+    opacity: 0;
+}
+.speed-dial .dials {
+    margin: 0 0 0 5px;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    bottom: 96px;
+
+}
+.speed-dial .dials.active{
+     opacity: 1;
+}
+.speed-dial .dials a {
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+    line-height: 50px;
+    margin: 0;
+    transform: scale(0);
+    animation: pop-out 0.3s ease both;
+}
+.speed-dial .active a {
+    animation: pop-in 0.3s ease both;
+}
+.speed-dial .dials a.pop-in {
+    animation: pop-in 0.3s ease both;
+}
+.speed-dial .dials li:nth-child(0) a {
+    animation-delay: 0s;
+}
+.speed-dial .dials li:nth-child(1) a {
+    animation-delay: 0.1s;
+}
+.speed-dial .dials li:nth-child(2) a {
+    animation-delay: 0.2s;
+}
+.speed-dial .dials li:nth-child(3) a {
+    animation-delay: 0.3s;
+}
+.speed-dial .dials li:nth-child(4) a {
+    animation-delay: 0.4s;
+}
+.speed-dial .dials li:nth-child(5) a {
+    animation-delay: 0.5s;
+}
+.speed-dial .dials li:nth-child(6) a {
+    animation-delay: 0.6s;
+}
+.speed-dial .dials li:nth-child(7) a {
+    animation-delay: 0.7s;
+}
+.speed-dial .dials li:nth-child(8) a {
+    animation-delay: 0.8s;
+}
+.speed-dial .dials li:nth-child(9) a {
+    animation-delay: 0.9s;
+}
+.speed-dial .dials li:nth-child(10) a {
+    animation-delay: 1s;
+}
+.dials li{
+    margin-top: 5px;
+}
+.dials li a{
+    background-repeat:no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+.ctc-bg-share {
+    cursor: pointer;
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/menu.svg");
+    background-color: #4A586E;
+    background-repeat:no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+.ctc-bg-skype{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/1.svg");
+    background-color:#00aff0;
+}
+.ctc-bg-watsapp{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/2.svg");
+    background-color:#25d366;
+}
+.ctc-bg-behance{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/3.svg");
+    background-color: #0057ff;
+}
+.ctc-bg-dribbble{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/4.svg");
+    background-color: #ea4c89;
+}
+.ctc-bg-LinkedIn  {
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/5.svg");
+    background-color: #0a66c2;
+}
+.ctc-bg-insta{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/6.svg");
+    background-color: #c32aa3;
+}
+.ctc-bg-pinterest{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/7.svg");
+    background-color:#bd081c;
+}
+.ctc-bg-tumblr{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/8.svg");
+    background-color: #35465d;
+}
+.ctc-bg-vk{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/9.svg");
+    background-color: #4a76a8;
+}
+.ctc-bg-viber{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/10.svg");
+    background-color:#7E57C2;
+}
+.ctc-bg-facebook{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/11.svg");
+    background-color: #1877f2;
+}
+
+.ctc-bg-telegram{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/12.svg");
+    background-color: #0088cc;
+}
+.ctc-bg-phone{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/13.svg");
+    background-color: #A6A6A6;
+}
+.ctc-bg-emial{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/14.svg");
+    background-color: #A6A6A6;
+}
+.ctc-bg-twitter{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/15.svg");
+    background-color: #1da1f2;
+}
+.ctc-bg-reddit{
+    background-image: url("https://ye4hen.github.io/griffins/wp-content/plugins/ctc-flatbuttons/inc/16.svg");
+    background-color: #ff4500;
+}

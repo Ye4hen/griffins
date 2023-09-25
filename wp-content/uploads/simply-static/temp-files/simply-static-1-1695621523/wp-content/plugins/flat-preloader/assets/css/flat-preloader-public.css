@@ -1,0 +1,39 @@
+#flat-preloader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all .2s ease-in;
+  opacity: 1;
+  visibility: visible;
+}
+
+#flat-preloader-overlay.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#flat-preloader-overlay img {
+  margin-bottom: 10px;
+}
+
+.fpo-default img {
+  width: 40px;
+  height: auto;
+}
+
+#flat-preloader-overlay small {
+  display: block;
+}
+
+.flat-preloader-active {
+  overflow: hidden;
+}

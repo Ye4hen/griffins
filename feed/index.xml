@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wordpress3</title>
+	<atom:link href="https://ye4hen.github.io/griffins/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ye4hen.github.io/griffins/</link>
+	<description></description>
+	<lastBuildDate>Fri, 08 Sep 2023 08:37:02 +0000</lastBuildDate>
+	<language>uk</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3.1</generator>
+	<item>
+		<title>Привіт, світ!</title>
+		<link>https://ye4hen.github.io/griffins/2023/09/08/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/</link>
+					<comments>https://ye4hen.github.io/griffins/2023/09/08/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/#comments</comments>
+		
+		<dc:creator><![CDATA[wordpress3]]></dc:creator>
+		<pubDate>Fri, 08 Sep 2023 08:37:02 +0000</pubDate>
+				<category><![CDATA[Без категорії]]></category>
+		<guid isPermaLink="false">https://ye4hen.github.io/griffins/?p=1</guid>
+
+					<description><![CDATA[<p>Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!</p>
+<p>The post <a href="https://ye4hen.github.io/griffins/2023/09/08/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/">Привіт, світ!</a> first appeared on <a href="https://ye4hen.github.io/griffins">wordpress3</a>.</p>
+<p>Запис <a rel="nofollow" href="https://ye4hen.github.io/griffins/2023/09/08/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/">Привіт, світ!</a> спершу з'явиться на <a rel="nofollow" href="https://ye4hen.github.io/griffins">wordpress3</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!</p><p>The post <a href="https://ye4hen.github.io/griffins/2023/09/08/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/">Привіт, світ!</a> first appeared on <a href="https://ye4hen.github.io/griffins">wordpress3</a>.</p><p>Запис <a rel="nofollow" href="https://ye4hen.github.io/griffins/2023/09/08/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/">Привіт, світ!</a> спершу з'явиться на <a rel="nofollow" href="https://ye4hen.github.io/griffins">wordpress3</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ye4hen.github.io/griffins/2023/09/08/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
